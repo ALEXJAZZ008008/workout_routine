@@ -7,6 +7,8 @@
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{pdflscape}
+\usepackage{adjustbox}
+\usepackage[activate={true, nocompatibility}, final, tracking=true, kerning=false, spacing=false, factor=1050, stretch=10, shrink=10]{microtype}
 \usepackage{hyperref}
 
 \setcounter{secnumdepth}{2}
@@ -18,6 +20,19 @@
 {0pt}
 {0.8\baselineskip}
 {0.3\baselineskip}
+
+\hypersetup{
+    hidelinks
+}
+
+\microtypecontext{spacing=nonfrench}
+
+\tolerance=1414
+\hbadness=1414
+\emergencystretch=1.5em
+\sloppy
+
+\newcommand{\tablearraystretch}{1.15}
 
 \title{Progressive Strength Training Manual}
 \author{Alexander C. Whitehead}
@@ -46,7 +61,7 @@ Warm-up sets are intended only to prepare for the working sets and should not pr
 
 This programme is designed to maximise long-term strength and muscle development while remaining simple, repeatable and sustainable under normal commercial gym conditions. Load is increased only when the prescribed performance criteria are achieved rather than according to a fixed timetable.
 
-The primary strength programme forms the foundation of long-term progression. An alternative hypertrophy block is provided for occasions when training time is limited or when a simpler hypertrophy-focused session is preferred. All alternative work is derived from the main-programme starting working weights to ensure both variants remain aligned.
+The primary strength programme forms the foundation of long-term progression. An alternative hypertrophy block is provided for occasions when training time is limited or when a simpler hypertrophy-focused session is preferred. The Alternative Hypertrophy Block uses the Main Strength Block starting working weights for percentage-based lifts. Non-percentage lifts use their own loading tables so that both variants remain aligned without forcing inappropriate percentage calculations.
 
 Consistency of technique, objective progression, and long-term adherence take priority over rapid increases in load. Every increase in weight should be earned through demonstrated performance rather than attempted prematurely.
 
@@ -55,19 +70,19 @@ Consistency of technique, objective progression, and long-term adherence take pr
 The following terms are used throughout this document.
 
 \begin{description}
-\item[Starting working weight:] The load used for the first working set of a main lift. Where work-set increments are prescribed, subsequent working sets are performed by increasing the load from this starting weight.
+\item[Starting working weight:] The load used for the first working set of an exercise. Where work-set increments are prescribed, subsequent working sets are performed by increasing the load from this starting weight.
 
 \item[Warm-up:] Preparatory sets performed before the working sets to prepare the muscles, joints and movement pattern without causing significant fatigue.
 
 \item[Working set:] A set intended to provide the prescribed training stimulus and to which the target effort applies.
 
-\item[Repetitions in Reserve (RIR):] The estimated number of additional repetitions that could have been completed while maintaining acceptable technique. Unless otherwise specified, all working sets should finish with approximately one repetition in reserve.
+\item[Repetitions in Reserve (RIR):] The estimated number of additional repetitions that could have been completed while maintaining acceptable technique.
 
-\item[Main starting working weight:] The current starting working weight prescribed for the first working set of the corresponding exercise in the Main Strength Block. This value is used when calculating loads for the Alternative Hypertrophy Block.
+\item[Main starting working weight:] The current starting working weight prescribed for the first working set of the corresponding exercise in the Main Strength Block. This value is used when calculating percentage-based loads for the Alternative Hypertrophy Block.
 
 \item[Work-set increment:] The increase in load applied between successive working sets where specified.
 
-\item[Session progression:] The increase in starting working weight applied between training sessions after the prescribed progression criteria have been met.
+\item[Session progression:] The increase in working weight or percentage applied between training sessions after the prescribed progression criteria have been met.
 \end{description}
 
 %=========================================================
@@ -81,16 +96,27 @@ For every exercise:
 \item Circle the row corresponding to the current starting working weight.
 \item Continue using that row until the progression criteria have been met.
 \item When the exercise is progressed, move to the next row and circle it.
-\item Leave future rows unmarked until they become active.
+\item Leave all future rows unmarked until they become active.
 \end{itemize}
 
 For the Alternative Hypertrophy Block, first select the current starting working weight row and then the current percentage column. The value at their intersection is the prescribed working weight.
 
-\section{Warm-up \& Accessory Block}
+A set counts as successfully completed only when every repetition is performed with the intended range of motion, control and movement pattern. Shortened range of motion, loss of control, excessive momentum, bouncing, twisting or excessive back extension do not count towards progression.
 
-Target effort: Finish every working set with approximately three repetitions in reserve (3 RIR). The purpose of this block is to increase body temperature, rehearse movement patterns and provide a small maintenance stimulus without impairing performance during the Main Strength Block.
+%=========================================================
+\section{Main Strength Block}
 
-Each exercise lists its prescribed work and working-weight progression. Circle the current row and advance to the next row only when the progression criteria have been satisfied.
+Bench Press and Back Squat should not be taken to technical failure, especially where safety bars or a competent spotter are not available. In those circumstances, stop earlier than the target effort if required to preserve safety.
+
+Circle the current row and advance to the next row only when the progression criteria for that exercise have been satisfied.
+
+Barbell loading tables list the total working weight and the plates to be placed on each side of the bar. For example, ``20\,kg'' in the plates-per-side column means one 20\,kg plate on each side of the bar.
+
+For Deadlift, the minimum floor-pull load is the lightest listed Deadlift working weight for the relevant bar: 25\,kg with the 20\,kg bar and 20\,kg with the 15\,kg bar.
+
+When training in pairs, rest while the other lifter completes their set. If technique or performance deteriorates because rest periods are too short, take additional rest before the next working set.
+
+The opening exercises provide general preparation and a small maintenance stimulus while leaving sufficient capacity for the subsequent compound lifts. Deadlift, Bench Press and Back Squat use the specific warm-up sequences listed in their own sections. For the remaining exercises, no additional warm-up sets are normally required. Perform an additional light familiarisation set only if an exercise does not feel adequately prepared.
 
 \subsection{Men (20 kg bar)}
 
@@ -98,50 +124,76 @@ Each exercise lists its prescribed work and working-weight progression. Circle t
 
 Work: 2$\times$10
 
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Move to the next dumbbell pair when every set finishes with 4 RIR or more.
+
+Retention: Keep the same dumbbell pair when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous dumbbell pair if the prescribed repetitions cannot be completed with acceptable technique.
+
+Technique: Stand upright while holding one dumbbell in each hand. Keep the knees slightly unlocked but do not deliberately bend and straighten them during the repetition. Raise the heels as high as possible, pause briefly at the top, then lower under control until the calves are stretched. Use the largest comfortable range of motion on every repetition. Do not bounce out of the bottom position, cut the top position short, or turn the movement into a squat.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 22.5\,kg dumbbells in each hand.
+
 Starting working weight:
 
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 24\,kg kettlebell in each hand.
-
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cl}
 \toprule
 Marker & Working weight \\
 \midrule
-$\circ$ & 4\,kg kettlebell in each hand \\
-$\circ$ & 6\,kg kettlebell in each hand \\
-$\circ$ & 8\,kg kettlebell in each hand \\
-$\circ$ & 10\,kg kettlebell in each hand \\
-$\circ$ & 12\,kg kettlebell in each hand \\
-$\circ$ & 16\,kg kettlebell in each hand \\
-$\circ$ & 20\,kg kettlebell in each hand \\
-$\circ$ & 24\,kg kettlebell in each hand \\
-$\circ$ & 28\,kg kettlebell in each hand \\
-$\circ$ & 32\,kg kettlebell in each hand \\
-$\circ$ & 36\,kg kettlebell in each hand \\
-$\circ$ & 40\,kg kettlebell in each hand \\
-$\circ$ & 44\,kg kettlebell in each hand \\
-$\circ$ & 48\,kg kettlebell in each hand \\
+$\circ$ & 2.5\,kg dumbbells in each hand \\
+$\circ$ & 5\,kg dumbbells in each hand \\
+$\circ$ & 7.5\,kg dumbbells in each hand \\
+$\circ$ & 10\,kg dumbbells in each hand \\
+$\circ$ & 12.5\,kg dumbbells in each hand \\
+$\circ$ & 15\,kg dumbbells in each hand \\
+$\circ$ & 17.5\,kg dumbbells in each hand \\
+$\circ$ & 20\,kg dumbbells in each hand \\
+$\circ$ & 22.5\,kg dumbbells in each hand \\
+$\circ$ & 27.5\,kg dumbbells in each hand \\
+$\circ$ & 30\,kg dumbbells in each hand \\
+$\circ$ & 32.5\,kg dumbbells in each hand \\
+$\circ$ & 35\,kg dumbbells in each hand \\
+$\circ$ & 40\,kg dumbbells in each hand \\
+$\circ$ & 45\,kg dumbbells in each hand \\
+$\circ$ & 50\,kg dumbbells in each hand \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 
 \subsubsection{Suitcase Carry}
 
 Work: 2$\times$25\,m per side
+
+Target effort: Complete each carry with stable posture and without approaching technical breakdown.
+
+Progression: Move to the next kettlebell when both sets on each side are completed over the prescribed distance while maintaining an upright torso, level shoulders and a normal walking pace. After reaching the 44\,kg kettlebell, progress using the distance-progression table instead of increasing load.
+
+Retention: Keep the same kettlebell and distance when all carries are completed but posture, walking control or grip position are close to the limit of acceptable technique.
+
+Regression: Move to the previous kettlebell if posture, shoulder position, walking control or grip position cannot be maintained over 25\,m. When using the distance-progression table, move to the previous distance row if posture, shoulder position, walking control or grip position cannot be maintained over the prescribed distance.
+
+Technique: Hold the kettlebell at one side with a neutral grip and stand upright before beginning to walk. Brace the trunk, keep the shoulders level, and allow the arms to hang naturally without shrugging. Walk at a normal, comfortable pace using short, controlled steps while keeping the torso upright and avoiding excessive side-to-side movement. Turn carefully at the end of the prescribed distance before continuing if required. Do not lean towards or away from the kettlebell, use the free arm to brace against the body, run, or continue once grip or posture begins to fail.
 
 Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 24\,kg kettlebell.
 
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cl}
 \toprule
 Marker & Working weight \\
 \midrule
 $\circ$ & 4\,kg kettlebell \\
-$\circ$ & 6\,kg kettlebell \\
 $\circ$ & 8\,kg kettlebell \\
-$\circ$ & 10\,kg kettlebell \\
 $\circ$ & 12\,kg kettlebell \\
 $\circ$ & 16\,kg kettlebell \\
 $\circ$ & 20\,kg kettlebell \\
@@ -151,24 +203,61 @@ $\circ$ & 32\,kg kettlebell \\
 $\circ$ & 36\,kg kettlebell \\
 $\circ$ & 40\,kg kettlebell \\
 $\circ$ & 44\,kg kettlebell \\
-$\circ$ & 48\,kg kettlebell \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\paragraph{Distance progression after 44\,kg}
+
+Once 44\,kg can be carried for 2$\times$25\,m per side with stable posture and normal walking control, keep the same kettlebell and increase the prescribed distance by 25\,m per side. Do not reduce the load automatically when distance increases; the purpose of this progression is to extend the same heavy unilateral carry stimulus. If a longer distance cannot be completed with acceptable posture, return to the previous distance row.
+
+The upper bound is 100\,m per side. Beyond this point, the exercise becomes increasingly time-consuming and conditioning-dominant rather than serving its main role in this programme: grip strength, trunk stiffness, frontal-plane control and loaded gait.
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Distance \\
+\midrule
+$\circ$ & 44\,kg kettlebell & 2$\times$25\,m per side \\
+$\circ$ & 44\,kg kettlebell & 2$\times$50\,m per side \\
+$\circ$ & 44\,kg kettlebell & 2$\times$75\,m per side \\
+$\circ$ & 44\,kg kettlebell & 2$\times$100\,m per side \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 
 \subsubsection{Alternating Supinating Dumbbell Curl}
 
 Work: 2$\times$10
+
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Move to the next dumbbell when every set finishes with 4 RIR or more.
+
+Retention: Keep the same dumbbells when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous dumbbell if the prescribed repetitions cannot be completed with acceptable technique.
+
+Technique: Stand upright with one dumbbell in each hand and the arms fully extended. Curl one dumbbell at a time, beginning with the palm facing the body and gradually rotating the forearm so that the palm faces upwards near the top of the movement. Keep the upper arm close to the torso throughout the repetition and lower the dumbbell under control until the elbow is fully extended before beginning the next repetition on that side. Alternate arms throughout the set. Do not swing the torso, lean backwards, move the elbows forwards to shorten the movement, or use momentum to lift the weight.
 
 Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 7.5\,kg dumbbells.
 
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cl}
 \toprule
 Marker & Working weight \\
 \midrule
+$\circ$ & 2.5\,kg dumbbells \\
 $\circ$ & 5\,kg dumbbells \\
 $\circ$ & 7.5\,kg dumbbells \\
 $\circ$ & 10\,kg dumbbells \\
@@ -177,224 +266,221 @@ $\circ$ & 15\,kg dumbbells \\
 $\circ$ & 17.5\,kg dumbbells \\
 $\circ$ & 20\,kg dumbbells \\
 $\circ$ & 22.5\,kg dumbbells \\
-$\circ$ & 25\,kg dumbbells \\
+$\circ$ & 27.5\,kg dumbbells \\
+$\circ$ & 30\,kg dumbbells \\
+$\circ$ & 32.5\,kg dumbbells \\
+$\circ$ & 35\,kg dumbbells \\
+$\circ$ & 40\,kg dumbbells \\
+$\circ$ & 45\,kg dumbbells \\
+$\circ$ & 50\,kg dumbbells \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\subsubsection{Face Pull}
+
+Work: 2$\times$10
+
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Move to the next listed cable-machine load when every set finishes with 4 RIR or more.
+
+Retention: Keep the same cable-machine load when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous listed cable-machine load if the prescribed repetitions cannot be completed with the intended movement pattern and control.
+
+The listed weight refers to the total kettlebell load attached to the 1:1 pulley using a rope attachment. The loading column gives one valid combination using the available kettlebells.
+
+Technique: Stand or kneel far enough from the pulley that the cable remains under tension throughout the set. Begin with the arms extended and the shoulders allowed to reach forwards slightly. Pull the rope towards the face or forehead with the elbows high, allowing the hands to separate near the end of the movement. Finish with the upper arms roughly in line with the shoulders and the shoulder blades moving naturally around the rib cage. Return under control until the arms are extended again. Do not turn the movement into a pulldown, curl, triceps extension or back-extension exercise.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 12\,kg kettlebell.
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Kettlebell loading \\
+\midrule
+$\circ$ & 4\,kg & 4\,kg \\
+$\circ$ & 8\,kg & 8\,kg \\
+$\circ$ & 12\,kg & 12\,kg \\
+$\circ$ & 16\,kg & 16\,kg \\
+$\circ$ & 20\,kg & 20\,kg \\
+$\circ$ & 24\,kg & 24\,kg \\
+$\circ$ & 28\,kg & 28\,kg \\
+$\circ$ & 32\,kg & 32\,kg \\
+$\circ$ & 36\,kg & 36\,kg \\
+$\circ$ & 40\,kg & 40\,kg \\
+$\circ$ & 44\,kg & 44\,kg \\
+$\circ$ & 48\,kg & 24\,kg + 24\,kg \\
+$\circ$ & 52\,kg & 24\,kg + 28\,kg \\
+$\circ$ & 56\,kg & 28\,kg + 28\,kg \\
+$\circ$ & 60\,kg & 28\,kg + 32\,kg \\
+$\circ$ & 64\,kg & 32\,kg + 32\,kg \\
+$\circ$ & 68\,kg & 32\,kg + 36\,kg \\
+$\circ$ & 72\,kg & 32\,kg + 40\,kg \\
+$\circ$ & 76\,kg & 32\,kg + 44\,kg \\
+$\circ$ & 80\,kg & 36\,kg + 44\,kg \\
+$\circ$ & 84\,kg & 40\,kg + 44\,kg \\
+$\circ$ & 88\,kg & 28\,kg + 28\,kg + 32\,kg \\
+$\circ$ & 92\,kg & 28\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 96\,kg & 32\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 100\,kg & 32\,kg + 32\,kg + 36\,kg \\
+$\circ$ & 104\,kg & 32\,kg + 32\,kg + 40\,kg \\
+$\circ$ & 108\,kg & 32\,kg + 32\,kg + 44\,kg \\
+$\circ$ & 112\,kg & 32\,kg + 36\,kg + 44\,kg \\
+$\circ$ & 116\,kg & 32\,kg + 40\,kg + 44\,kg \\
+$\circ$ & 120\,kg & 36\,kg + 40\,kg + 44\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 
 \subsubsection{Cable Crunch}
 
 Work: 2$\times$10
 
-The listed weight refers to the kettlebell load attached to the 1:1 pulley.
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Move to the next listed cable-machine load when every set finishes with 4 RIR or more.
+
+Retention: Keep the same cable-machine load when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous listed cable-machine load if the prescribed repetitions cannot be completed with the intended movement pattern and control.
+
+The listed weight refers to the total kettlebell load attached to the 1:1 pulley, with the loading column giving one valid combination using the available kettlebells.
+
+Technique: Use the rope attachment. Kneel or stand in a stable position and hold the rope beside the head or upper chest. Keep the hips mostly fixed and flex the spine by bringing the ribs down towards the pelvis. Pause briefly in the shortened position, then return under control until the trunk is extended again. Do not turn the movement into a hip hinge, pulldown or arm exercise.
 
 Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 20\,kg kettlebell.
 
 Starting working weight:
 
 \begin{center}
-\begin{tabular}{cl}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
 \toprule
-Marker & Working weight \\
+Marker & Working weight & Kettlebell loading \\
 \midrule
-$\circ$ & 4\,kg kettlebell \\
-$\circ$ & 6\,kg kettlebell \\
-$\circ$ & 8\,kg kettlebell \\
-$\circ$ & 10\,kg kettlebell \\
-$\circ$ & 12\,kg kettlebell \\
-$\circ$ & 16\,kg kettlebell \\
-$\circ$ & 20\,kg kettlebell \\
-$\circ$ & 24\,kg kettlebell \\
-$\circ$ & 28\,kg kettlebell \\
-$\circ$ & 32\,kg kettlebell \\
-$\circ$ & 36\,kg kettlebell \\
-$\circ$ & 40\,kg kettlebell \\
-$\circ$ & 44\,kg kettlebell \\
-$\circ$ & 48\,kg kettlebell \\
+$\circ$ & 4\,kg & 4\,kg \\
+$\circ$ & 8\,kg & 8\,kg \\
+$\circ$ & 12\,kg & 12\,kg \\
+$\circ$ & 16\,kg & 16\,kg \\
+$\circ$ & 20\,kg & 20\,kg \\
+$\circ$ & 24\,kg & 24\,kg \\
+$\circ$ & 28\,kg & 28\,kg \\
+$\circ$ & 32\,kg & 32\,kg \\
+$\circ$ & 36\,kg & 36\,kg \\
+$\circ$ & 40\,kg & 40\,kg \\
+$\circ$ & 44\,kg & 44\,kg \\
+$\circ$ & 48\,kg & 24\,kg + 24\,kg \\
+$\circ$ & 52\,kg & 24\,kg + 28\,kg \\
+$\circ$ & 56\,kg & 28\,kg + 28\,kg \\
+$\circ$ & 60\,kg & 28\,kg + 32\,kg \\
+$\circ$ & 64\,kg & 32\,kg + 32\,kg \\
+$\circ$ & 68\,kg & 32\,kg + 36\,kg \\
+$\circ$ & 72\,kg & 32\,kg + 40\,kg \\
+$\circ$ & 76\,kg & 32\,kg + 44\,kg \\
+$\circ$ & 80\,kg & 36\,kg + 44\,kg \\
+$\circ$ & 84\,kg & 40\,kg + 44\,kg \\
+$\circ$ & 88\,kg & 28\,kg + 28\,kg + 32\,kg \\
+$\circ$ & 92\,kg & 28\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 96\,kg & 32\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 100\,kg & 32\,kg + 32\,kg + 36\,kg \\
+$\circ$ & 104\,kg & 32\,kg + 32\,kg + 40\,kg \\
+$\circ$ & 108\,kg & 32\,kg + 32\,kg + 44\,kg \\
+$\circ$ & 112\,kg & 32\,kg + 36\,kg + 44\,kg \\
+$\circ$ & 116\,kg & 32\,kg + 40\,kg + 44\,kg \\
+$\circ$ & 120\,kg & 36\,kg + 40\,kg + 44\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
-
-\subsection{Women (15 kg bar)}
-
-\subsubsection{Standing Calf Raise}
-
-Work: 2$\times$10
-
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 16\,kg kettlebell in each hand.
-
-Starting working weight:
-
-\begin{center}
-\begin{tabular}{cl}
-\toprule
-Marker & Working weight \\
-\midrule
-$\circ$ & 4\,kg kettlebell in each hand \\
-$\circ$ & 6\,kg kettlebell in each hand \\
-$\circ$ & 8\,kg kettlebell in each hand \\
-$\circ$ & 10\,kg kettlebell in each hand \\
-$\circ$ & 12\,kg kettlebell in each hand \\
-$\circ$ & 16\,kg kettlebell in each hand \\
-$\circ$ & 20\,kg kettlebell in each hand \\
-$\circ$ & 24\,kg kettlebell in each hand \\
-$\circ$ & 28\,kg kettlebell in each hand \\
-$\circ$ & 32\,kg kettlebell in each hand \\
-$\circ$ & 36\,kg kettlebell in each hand \\
-$\circ$ & 40\,kg kettlebell in each hand \\
-$\circ$ & 44\,kg kettlebell in each hand \\
-$\circ$ & 48\,kg kettlebell in each hand \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\subsubsection{Suitcase Carry}
-
-Work: 2$\times$25\,m per side
-
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 16\,kg kettlebell.
-
-Starting working weight:
-
-\begin{center}
-\begin{tabular}{cl}
-\toprule
-Marker & Working weight \\
-\midrule
-$\circ$ & 4\,kg kettlebell \\
-$\circ$ & 6\,kg kettlebell \\
-$\circ$ & 8\,kg kettlebell \\
-$\circ$ & 10\,kg kettlebell \\
-$\circ$ & 12\,kg kettlebell \\
-$\circ$ & 16\,kg kettlebell \\
-$\circ$ & 20\,kg kettlebell \\
-$\circ$ & 24\,kg kettlebell \\
-$\circ$ & 28\,kg kettlebell \\
-$\circ$ & 32\,kg kettlebell \\
-$\circ$ & 36\,kg kettlebell \\
-$\circ$ & 40\,kg kettlebell \\
-$\circ$ & 44\,kg kettlebell \\
-$\circ$ & 48\,kg kettlebell \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\subsubsection{Alternating Supinating Dumbbell Curl}
-
-Work: 2$\times$10
-
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 5\,kg dumbbells.
-
-Starting working weight:
-
-\begin{center}
-\begin{tabular}{cl}
-\toprule
-Marker & Working weight \\
-\midrule
-$\circ$ & 5\,kg dumbbells \\
-$\circ$ & 7.5\,kg dumbbells \\
-$\circ$ & 10\,kg dumbbells \\
-$\circ$ & 12.5\,kg dumbbells \\
-$\circ$ & 15\,kg dumbbells \\
-$\circ$ & 17.5\,kg dumbbells \\
-$\circ$ & 20\,kg dumbbells \\
-$\circ$ & 22.5\,kg dumbbells \\
-$\circ$ & 25\,kg dumbbells \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\subsubsection{Cable Crunch}
-
-Work: 2$\times$10
-
-The listed weight refers to the kettlebell load attached to the 1:1 pulley.
-
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 16\,kg kettlebell.
-
-Starting working weight:
-
-\begin{center}
-\begin{tabular}{cl}
-\toprule
-Marker & Working weight \\
-\midrule
-$\circ$ & 4\,kg kettlebell \\
-$\circ$ & 6\,kg kettlebell \\
-$\circ$ & 8\,kg kettlebell \\
-$\circ$ & 10\,kg kettlebell \\
-$\circ$ & 12\,kg kettlebell \\
-$\circ$ & 16\,kg kettlebell \\
-$\circ$ & 20\,kg kettlebell \\
-$\circ$ & 24\,kg kettlebell \\
-$\circ$ & 28\,kg kettlebell \\
-$\circ$ & 32\,kg kettlebell \\
-$\circ$ & 36\,kg kettlebell \\
-$\circ$ & 40\,kg kettlebell \\
-$\circ$ & 44\,kg kettlebell \\
-$\circ$ & 48\,kg kettlebell \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-%=========================================================
-\section{Main Strength Block}
-
-Target effort: Finish every working set with approximately one repetition in reserve (1 RIR).
-
-Bench press and back squat should not be taken to technical failure, especially where safety bars or a competent spotter are not available. In those circumstances, stop earlier than the target effort if required to preserve safety.
-
-For Deadlift, Bench Press and Back Squat, the starting working weight is the load used for the first of the three working sets. Increase the load by the prescribed work-set increment after each working set.
-
-Circle the current row and advance to the next row only when the progression criteria have been satisfied.
-
-Barbell loading tables list the total working weight and the plates to be placed on each side of the bar. For example, ``20\,kg'' in the plates-per-side column means one 20\,kg plate on each side of the bar.
-
-For Deadlift, the minimum floor-pull load is the lightest listed deadlift working weight for the relevant bar: 25\,kg with the 20\,kg bar and 20\,kg with the 15\,kg bar.
-
-When training in pairs, rest while the other lifter completes their set. If technique or performance deteriorates because rest periods are too short, take additional rest before the next working set.
-
-No additional warm-up sets are normally required for the remaining exercises because they are preceded by the Warm-up \& Accessory Block and progressively heavier compound lifts. Perform an additional light familiarisation set only if an exercise does not feel adequately prepared.
-
-\subsection{Men (20 kg bar)}
 
 \subsubsection{Lat Pulldown}
 
 Work: 2$\times$10
 
-The listed weight refers to the kettlebell load attached to the 1:1 pulley.
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Move to the next listed cable-machine load when every set finishes with 4 RIR or more.
+
+Retention: Keep the same cable-machine load when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous listed cable-machine load if the prescribed repetitions cannot be completed with the intended movement pattern and control.
+
+The listed weight refers to the total kettlebell load attached to the 1:1 pulley, with the loading column giving one valid combination using the available kettlebells.
+
+Technique: Sit or kneel in a stable position so that the cable runs vertically and remains under tension throughout the movement. Begin each repetition with the arms fully extended overhead and the shoulders allowed to rise naturally. Pull the handle down towards the upper chest by driving the elbows down and slightly back. Pause briefly at the bottom, then return under control until the elbows are fully extended again. Do not lean back excessively, swing the torso, shorten the overhead position, or turn the movement into a row.
 
 Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 32\,kg kettlebell.
 
 Starting working weight:
 
 \begin{center}
-\begin{tabular}{cl}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
 \toprule
-Marker & Working weight \\
+Marker & Working weight & Kettlebell loading \\
 \midrule
-$\circ$ & 4\,kg kettlebell \\
-$\circ$ & 6\,kg kettlebell \\
-$\circ$ & 8\,kg kettlebell \\
-$\circ$ & 10\,kg kettlebell \\
-$\circ$ & 12\,kg kettlebell \\
-$\circ$ & 16\,kg kettlebell \\
-$\circ$ & 20\,kg kettlebell \\
-$\circ$ & 24\,kg kettlebell \\
-$\circ$ & 28\,kg kettlebell \\
-$\circ$ & 32\,kg kettlebell \\
-$\circ$ & 36\,kg kettlebell \\
-$\circ$ & 40\,kg kettlebell \\
-$\circ$ & 44\,kg kettlebell \\
-$\circ$ & 48\,kg kettlebell \\
+$\circ$ & 4\,kg & 4\,kg \\
+$\circ$ & 8\,kg & 8\,kg \\
+$\circ$ & 12\,kg & 12\,kg \\
+$\circ$ & 16\,kg & 16\,kg \\
+$\circ$ & 20\,kg & 20\,kg \\
+$\circ$ & 24\,kg & 24\,kg \\
+$\circ$ & 28\,kg & 28\,kg \\
+$\circ$ & 32\,kg & 32\,kg \\
+$\circ$ & 36\,kg & 36\,kg \\
+$\circ$ & 40\,kg & 40\,kg \\
+$\circ$ & 44\,kg & 44\,kg \\
+$\circ$ & 48\,kg & 24\,kg + 24\,kg \\
+$\circ$ & 52\,kg & 24\,kg + 28\,kg \\
+$\circ$ & 56\,kg & 28\,kg + 28\,kg \\
+$\circ$ & 60\,kg & 28\,kg + 32\,kg \\
+$\circ$ & 64\,kg & 32\,kg + 32\,kg \\
+$\circ$ & 68\,kg & 32\,kg + 36\,kg \\
+$\circ$ & 72\,kg & 32\,kg + 40\,kg \\
+$\circ$ & 76\,kg & 32\,kg + 44\,kg \\
+$\circ$ & 80\,kg & 36\,kg + 44\,kg \\
+$\circ$ & 84\,kg & 40\,kg + 44\,kg \\
+$\circ$ & 88\,kg & 28\,kg + 28\,kg + 32\,kg \\
+$\circ$ & 92\,kg & 28\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 96\,kg & 32\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 100\,kg & 32\,kg + 32\,kg + 36\,kg \\
+$\circ$ & 104\,kg & 32\,kg + 32\,kg + 40\,kg \\
+$\circ$ & 108\,kg & 32\,kg + 32\,kg + 44\,kg \\
+$\circ$ & 112\,kg & 32\,kg + 36\,kg + 44\,kg \\
+$\circ$ & 116\,kg & 32\,kg + 40\,kg + 44\,kg \\
+$\circ$ & 120\,kg & 36\,kg + 40\,kg + 44\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 
 \subsubsection{Deadlift}
 
 Work: 3$\times$5
+
+Target effort: The final working set should finish with approximately one repetition in reserve (1 RIR). The first and second working sets may be easier.
+
+Progression: Increase the starting working weight by one row when the final working set finishes with 2 RIR or more and all working sets are completed with acceptable technique.
+
+Retention: Keep the same starting working weight when the final working set finishes with approximately 1 RIR.
+
+Regression: Move down one row if technical failure occurs, or if acceptable technique is lost before all prescribed repetitions have been completed. If this happens in two consecutive sessions, move down two rows from the original failed load.
+
+Technique: Position the bar over the middle of the feet and take a grip just outside the legs. Brace the trunk before each repetition and maintain a rigid, neutral back throughout the lift. Push the floor away while keeping the bar close to the body, allowing the hips and shoulders to rise together until standing upright. At the top, stand tall without leaning backwards or shrugging the shoulders. Lower the bar under control by hinging at the hips before bending the knees once the bar has passed them, returning the bar to the floor under control before beginning the next repetition. Do not bounce the bar, hitch the lift, round the back, or allow the bar to drift forwards away from the legs.
 
 Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 60\,kg.
 
@@ -406,8 +492,8 @@ Warm-up loads are rounded to the nearest load that can be assembled using the av
 
 \begin{landscape}
 \begin{center}
-\small
-\renewcommand{\arraystretch}{1.15}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{c p{4.3cm} p{4.3cm} p{4.3cm}}
 \toprule
 Starting working weight &
@@ -415,41 +501,46 @@ Starting working weight &
 1$\times$3 (60\%) &
 1$\times$1 (80\%) \\
 \midrule
-25\,kg  & -- & -- & -- \\
-30\,kg  & -- & -- & 2.5\,kg \\
-35\,kg  & -- & -- & 2.5\,kg + 1.25\,kg \\
-40\,kg  & -- & 2.5\,kg & 5\,kg + 1.25\,kg \\
-45\,kg  & -- & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg \\
-50\,kg  & -- & 5\,kg & 10\,kg \\
-55\,kg  & 1.25\,kg & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg \\
-60\,kg  & 2.5\,kg & 5\,kg + 2.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
-65\,kg  & 2.5\,kg & 10\,kg & 15\,kg + 1.25\,kg \\
-70\,kg  & 2.5\,kg + 1.25\,kg & 10\,kg + 1.25\,kg & 15\,kg + 2.5\,kg \\
-75\,kg  & 5\,kg & 10\,kg + 2.5\,kg & 20\,kg \\
-80\,kg  & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 20\,kg + 2.5\,kg \\
-85\,kg  & 5\,kg + 2.5\,kg & 15\,kg & 20\,kg + 2.5\,kg + 1.25\,kg \\
-90\,kg  & 5\,kg + 2.5\,kg & 15\,kg + 2.5\,kg & 25\,kg + 1.25\,kg \\
-95\,kg  & 5\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 2.5\,kg \\
-100\,kg & 10\,kg & 20\,kg & 25\,kg + 5\,kg \\
-105\,kg & 10\,kg + 1.25\,kg & 20\,kg + 1.25\,kg & 25\,kg + 5\,kg + 2.5\,kg \\
-110\,kg & 10\,kg + 2.5\,kg & 20\,kg + 2.5\,kg & 25\,kg + 5\,kg + 2.5\,kg + 1.25\,kg \\
-115\,kg & 10\,kg + 2.5\,kg & 25\,kg & 25\,kg + 10\,kg + 1.25\,kg \\
-120\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 1.25\,kg & 25\,kg + 10\,kg + 2.5\,kg \\
-125\,kg & 15\,kg & 25\,kg + 2.5\,kg & 25\,kg + 15\,kg \\
-130\,kg & 15\,kg + 1.25\,kg & 25\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 15\,kg + 2.5\,kg \\
-135\,kg & 15\,kg + 2.5\,kg & 25\,kg + 5\,kg & 25\,kg + 15\,kg + 2.5\,kg + 1.25\,kg \\
-140\,kg & 15\,kg + 2.5\,kg & 25\,kg + 5\,kg + 2.5\,kg & 25\,kg + 20\,kg + 1.25\,kg \\
+25\,kg   & -- & -- & -- \\
+30\,kg   & -- & -- & 2.5\,kg \\
+35\,kg   & -- & -- & 2.5\,kg + 1.25\,kg \\
+40\,kg   & -- & 2.5\,kg & 5\,kg + 1.25\,kg \\
+45\,kg   & -- & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg \\
+50\,kg   & -- & 5\,kg & 10\,kg \\
+55\,kg   & 1.25\,kg & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg \\
+60\,kg   & 2.5\,kg & 5\,kg + 2.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
+65\,kg   & 2.5\,kg & 10\,kg & 15\,kg + 1.25\,kg \\
+70\,kg   & 2.5\,kg + 1.25\,kg & 10\,kg + 1.25\,kg & 15\,kg + 2.5\,kg \\
+75\,kg   & 5\,kg & 10\,kg + 2.5\,kg & 20\,kg \\
+80\,kg   & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 20\,kg + 2.5\,kg \\
+85\,kg   & 5\,kg + 2.5\,kg & 15\,kg & 20\,kg + 2.5\,kg + 1.25\,kg \\
+90\,kg   & 5\,kg + 2.5\,kg & 15\,kg + 2.5\,kg & 25\,kg + 1.25\,kg \\
+95\,kg   & 5\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 2.5\,kg \\
+100\,kg  & 10\,kg & 20\,kg & 25\,kg + 5\,kg \\
+105\,kg  & 10\,kg + 1.25\,kg & 20\,kg + 1.25\,kg & 25\,kg + 5\,kg + 2.5\,kg \\
+110\,kg  & 10\,kg + 2.5\,kg & 20\,kg + 2.5\,kg & 25\,kg + 5\,kg + 2.5\,kg + 1.25\,kg \\
+115\,kg  & 10\,kg + 2.5\,kg & 25\,kg & 25\,kg + 10\,kg + 1.25\,kg \\
+120\,kg  & 10\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 1.25\,kg & 25\,kg + 10\,kg + 2.5\,kg \\
+125\,kg  & 15\,kg & 25\,kg + 2.5\,kg & 25\,kg + 15\,kg \\
+130\,kg  & 15\,kg + 1.25\,kg & 25\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 15\,kg + 2.5\,kg \\
+135\,kg  & 15\,kg + 2.5\,kg & 25\,kg + 5\,kg & 25\,kg + 15\,kg + 2.5\,kg + 1.25\,kg \\
+140\,kg  & 15\,kg + 2.5\,kg & 25\,kg + 5\,kg + 2.5\,kg & 25\,kg + 20\,kg + 1.25\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \renewcommand{\arraystretch}{1}
 \end{center}
 \end{landscape}
 
 Work-set increment: +5\,kg total load
 
+Working sets are performed at the starting working weight, the starting working weight plus one increment, and the starting working weight plus two increments.
+
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cll}
 \toprule
 Marker & Working weight & Plates per side \\
@@ -480,11 +571,23 @@ $\circ$ & 135\,kg & 20\,kg + 20\,kg + 15\,kg + 2.5\,kg \\
 $\circ$ & 140\,kg & 20\,kg + 20\,kg + 20\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 
 \subsubsection{Bench Press}
 
 Work: 3$\times$5
+
+Target effort: The final working set should finish with approximately one repetition in reserve (1 RIR). The first and second working sets may be easier. Do not take this lift to technical failure unless a competent spotter or suitable safety equipment is available.
+
+Progression: Increase the starting working weight by one row when the final working set finishes with 2 RIR or more and all working sets are completed with acceptable technique.
+
+Retention: Keep the same starting working weight when the final working set finishes with approximately 1 RIR.
+
+Regression: Move down one row if technical failure occurs, or if acceptable technique is lost before all prescribed repetitions have been completed. If this happens in two consecutive sessions, move down two rows from the original failed load.
+
+Technique: Lie on the bench with the eyes beneath or slightly behind the bar. Retract and depress the shoulder blades, keep the chest lifted, and place the feet firmly on the floor throughout the set. Grip the bar so that the forearms are approximately vertical when the bar reaches the chest. Lower the bar under control until it lightly touches the lower chest or sternum without bouncing, then press it upwards and slightly backwards until the elbows are fully extended. Keep the shoulders stable and the hips in contact with the bench throughout the repetition. Do not bounce the bar from the chest, allow the elbows to flare excessively, or attempt repetitions that cannot be completed safely without a competent spotter or suitable safety equipment.
 
 Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 40\,kg.
 
@@ -496,8 +599,8 @@ Warm-up loads are rounded to the nearest load that can be assembled using the av
 
 \begin{landscape}
 \begin{center}
-\small
-\renewcommand{\arraystretch}{1.15}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{c p{4cm} p{4cm} p{4cm}}
 \toprule
 Starting working weight &
@@ -506,33 +609,38 @@ Starting working weight &
 1$\times$1 (80\%) \\
 \midrule
 20\,kg   & -- & -- & -- \\
-22.5\,kg & -- & -- & 1.25\,kg \\
-25\,kg   & -- & -- & 2.5\,kg \\
-27.5\,kg & -- & 1.25\,kg & 2.5\,kg + 1.25\,kg \\
-30\,kg   & -- & 2.5\,kg & 5\,kg \\
-32.5\,kg & -- & 2.5\,kg + 1.25\,kg & 5\,kg + 1.25\,kg \\
-35\,kg   & -- & 5\,kg & 5\,kg + 2.5\,kg \\
-37.5\,kg & -- & 5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
-40\,kg   & -- & 5\,kg + 2.5\,kg & 10\,kg \\
-42.5\,kg & -- & 5\,kg + 2.5\,kg + 1.25\,kg & 10\,kg + 1.25\,kg \\
-45\,kg   & 1.25\,kg & 10\,kg & 10\,kg + 2.5\,kg \\
-47.5\,kg & 1.25\,kg & 10\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
-50\,kg   & 2.5\,kg & 10\,kg + 2.5\,kg & 15\,kg \\
-52.5\,kg & 2.5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 1.25\,kg \\
-55\,kg   & 5\,kg & 15\,kg & 15\,kg + 2.5\,kg \\
-57.5\,kg & 5\,kg + 1.25\,kg & 15\,kg + 1.25\,kg & 15\,kg + 2.5\,kg + 1.25\,kg \\
-60\,kg   & 5\,kg + 2.5\,kg & 15\,kg + 2.5\,kg & 20\,kg \\
+22.5\,kg & -- & -- & -- \\
+25\,kg   & -- & -- & -- \\
+27.5\,kg & -- & -- & 1.25\,kg \\
+30\,kg   & -- & -- & 2.5\,kg \\
+32.5\,kg & -- & -- & 2.5\,kg \\
+35\,kg   & -- & -- & 2.5\,kg + 1.25\,kg \\
+37.5\,kg & -- & 1.25\,kg & 5\,kg \\
+40\,kg   & -- & 2.5\,kg & 5\,kg + 1.25\,kg \\
+42.5\,kg & -- & 2.5\,kg & 5\,kg + 2.5\,kg \\
+45\,kg   & -- & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg \\
+47.5\,kg & -- & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
+50\,kg   & -- & 5\,kg & 10\,kg \\
+52.5\,kg & -- & 5\,kg + 1.25\,kg & 10\,kg + 1.25\,kg \\
+55\,kg   & 1.25\,kg & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg \\
+57.5\,kg & 1.25\,kg & 5\,kg + 2.5\,kg & 10\,kg + 2.5\,kg \\
+60\,kg   & 2.5\,kg & 5\,kg + 2.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \renewcommand{\arraystretch}{1}
 \end{center}
 \end{landscape}
 
 Work-set increment: +2.5\,kg total load
 
+Working sets are performed at the starting working weight, the starting working weight plus one increment, and the starting working weight plus two increments.
+
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cll}
 \toprule
 Marker & Working weight & Plates per side \\
@@ -556,121 +664,23 @@ $\circ$ & 57.5\,kg & 15\,kg + 2.5\,kg + 1.25\,kg \\
 $\circ$ & 60\,kg   & 20\,kg \\
 \bottomrule
 \end{tabular}
-\end{center}
-
-\subsubsection{Back Squat}
-
-Work: 3$\times$5
-
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 50\,kg.
-
-\paragraph{Warm-up}
-
-Use the current starting working weight and the corresponding plate loading from the lookup table below. Plate loading is expressed as the plates to be placed on \emph{each side} of a 20\,kg bar. A dash indicates the empty bar.
-
-Warm-up loads are rounded to the nearest load that can be assembled using the available equipment. Where the calculated load is below the empty bar, perform the set using the empty bar only.
-
-\begin{landscape}
-\begin{center}
-\small
-\renewcommand{\arraystretch}{1.15}
-\begin{tabular}{c p{4cm} p{4cm} p{4cm}}
-\toprule
-Starting working weight &
-1$\times$5 (40\%) &
-1$\times$3 (60\%) &
-1$\times$1 (80\%) \\
-\midrule
-20\,kg  & -- & -- & -- \\
-25\,kg  & -- & -- & -- \\
-30\,kg  & -- & -- & 2.5\,kg \\
-35\,kg  & -- & -- & 2.5\,kg + 1.25\,kg \\
-40\,kg  & -- & 2.5\,kg & 5\,kg + 1.25\,kg \\
-45\,kg  & -- & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg \\
-50\,kg  & -- & 5\,kg & 10\,kg \\
-55\,kg  & 1.25\,kg & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg \\
-60\,kg  & 2.5\,kg & 5\,kg + 2.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
-65\,kg  & 2.5\,kg & 10\,kg & 15\,kg + 1.25\,kg \\
-70\,kg  & 2.5\,kg + 1.25\,kg & 10\,kg + 1.25\,kg & 15\,kg + 2.5\,kg \\
-75\,kg  & 5\,kg & 10\,kg + 2.5\,kg & 20\,kg \\
-80\,kg  & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 20\,kg + 2.5\,kg \\
-85\,kg  & 5\,kg + 2.5\,kg & 15\,kg & 20\,kg + 2.5\,kg + 1.25\,kg \\
-90\,kg  & 5\,kg + 2.5\,kg & 15\,kg + 2.5\,kg & 25\,kg + 1.25\,kg \\
-95\,kg  & 5\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 2.5\,kg \\
-100\,kg & 10\,kg & 20\,kg & 25\,kg + 5\,kg \\
-\bottomrule
-\end{tabular}
+\end{adjustbox}
 \renewcommand{\arraystretch}{1}
-\end{center}
-\end{landscape}
-
-Work-set increment: +5\,kg total load
-
-Starting working weight:
-
-\begin{center}
-\begin{tabular}{cll}
-\toprule
-Marker & Working weight & Plates per side \\
-\midrule
-$\circ$ & 20\,kg  & -- \\
-$\circ$ & 25\,kg  & 2.5\,kg \\
-$\circ$ & 30\,kg  & 5\,kg \\
-$\circ$ & 35\,kg  & 5\,kg + 2.5\,kg \\
-$\circ$ & 40\,kg  & 10\,kg \\
-$\circ$ & 45\,kg  & 10\,kg + 2.5\,kg \\
-$\circ$ & 50\,kg  & 15\,kg \\
-$\circ$ & 55\,kg  & 15\,kg + 2.5\,kg \\
-$\circ$ & 60\,kg  & 20\,kg \\
-$\circ$ & 65\,kg  & 20\,kg + 2.5\,kg \\
-$\circ$ & 70\,kg  & 20\,kg + 5\,kg \\
-$\circ$ & 75\,kg  & 20\,kg + 5\,kg + 2.5\,kg \\
-$\circ$ & 80\,kg  & 20\,kg + 10\,kg \\
-$\circ$ & 85\,kg  & 20\,kg + 10\,kg + 2.5\,kg \\
-$\circ$ & 90\,kg  & 20\,kg + 15\,kg \\
-$\circ$ & 95\,kg  & 20\,kg + 15\,kg + 2.5\,kg \\
-$\circ$ & 100\,kg & 20\,kg + 20\,kg \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\subsubsection{Pendlay Row}
-
-Work: 2$\times$10
-
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 35\,kg.
-
-Work-set increment: +2.5\,kg total load
-
-Starting working weight:
-
-\begin{center}
-\begin{tabular}{cll}
-\toprule
-Marker & Working weight & Plates per side \\
-\midrule
-$\circ$ & 25\,kg & 2.5\,kg \\
-$\circ$ & 27.5\,kg & 2.5\,kg + 1.25\,kg \\
-$\circ$ & 30\,kg & 5\,kg \\
-$\circ$ & 32.5\,kg & 5\,kg + 1.25\,kg \\
-$\circ$ & 35\,kg & 5\,kg + 2.5\,kg \\
-$\circ$ & 37.5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
-$\circ$ & 40\,kg & 10\,kg \\
-$\circ$ & 42.5\,kg & 10\,kg + 1.25\,kg \\
-$\circ$ & 45\,kg & 10\,kg + 2.5\,kg \\
-$\circ$ & 47.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
-$\circ$ & 50\,kg & 15\,kg \\
-$\circ$ & 52.5\,kg & 15\,kg + 1.25\,kg \\
-$\circ$ & 55\,kg & 15\,kg + 2.5\,kg \\
-$\circ$ & 57.5\,kg & 15\,kg + 2.5\,kg + 1.25\,kg \\
-$\circ$ & 60\,kg & 20\,kg \\
-\bottomrule
-\end{tabular}
 \end{center}
 
 \subsubsection{Strict Press}
 
 Work: 2$\times$10
+
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Increase by +2$\times$1.25\,kg plates when every set finishes with 4 RIR or more.
+
+Retention: Keep the same working weight when every set finishes with approximately 1--3 RIR.
+
+Regression: Move down one row if the prescribed repetitions cannot be completed with acceptable technique.
+
+Technique: Stand with the bar resting on the upper chest and shoulders, brace the trunk, and keep the body rigid throughout the lift. Press the bar overhead until the elbows are fully extended, moving the head slightly back as the bar passes the face and then bringing the head through once the bar is overhead. Lower the bar under control to the starting position. Keep the wrists stacked over the forearms and the finished bar position balanced over the midfoot. Do not use leg drive, excessive back extension, or momentum to assist the lift. If these are required to complete the repetition, the weight should be reduced.
 
 Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 30\,kg.
 
@@ -679,6 +689,8 @@ Work-set increment: +2.5\,kg total load
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cll}
 \toprule
 Marker & Working weight & Plates per side \\
@@ -702,29 +714,227 @@ $\circ$ & 57.5\,kg & 15\,kg + 2.5\,kg + 1.25\,kg \\
 $\circ$ & 60\,kg & 20\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 
-\subsection{Women (15 kg bar)}
+\subsubsection{Back Squat}
 
-\subsubsection{Lat Pulldown}
+Work: 3$\times$5
 
-Work: 2$\times$10
+Target effort: The final working set should finish with approximately one repetition in reserve (1 RIR). The first and second working sets may be easier. Do not take this lift to technical failure unless suitable safety equipment is available.
 
-The listed weight refers to the kettlebell load attached to the 1:1 pulley.
+Progression: Increase the starting working weight by one row when the final working set finishes with 2 RIR or more and all working sets are completed with acceptable technique.
 
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 24\,kg kettlebell.
+Retention: Keep the same starting working weight when the final working set finishes with approximately 1 RIR.
+
+Regression: Move down one row if technical failure occurs, or if acceptable technique is lost before all prescribed repetitions have been completed. If this happens in two consecutive sessions, move down two rows from the original failed load.
+
+Technique: Position the bar securely across the upper back and adopt a stance that allows a comfortable, stable squat. Brace the trunk before each repetition and keep the whole foot in contact with the floor throughout the movement. Descend under control until the hip crease is at least level with the top of the knee, or to the deepest position that can be reached while maintaining a neutral spine and control. Drive upwards by pushing evenly through the feet while keeping the knees tracking broadly in line with the toes. Stand fully upright before beginning the next repetition. Do not allow the heels to lift, the knees to collapse inwards, the back to lose its neutral position, or the bar to drift away from the midfoot.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 50\,kg.
+
+\paragraph{Warm-up}
+
+Use the current starting working weight and the corresponding plate loading from the lookup table below. Plate loading is expressed as the plates to be placed on \emph{each side} of a 20\,kg bar. A dash indicates the empty bar.
+
+Warm-up loads are rounded to the nearest load that can be assembled using the available equipment. Where the calculated load is below the empty bar, perform the set using the empty bar only.
+
+\begin{landscape}
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{c p{4cm} p{4cm} p{4cm}}
+\toprule
+Starting working weight &
+1$\times$5 (40\%) &
+1$\times$3 (60\%) &
+1$\times$1 (80\%) \\
+\midrule
+20\,kg   & -- & -- & -- \\
+25\,kg   & -- & -- & -- \\
+30\,kg   & -- & -- & 2.5\,kg \\
+35\,kg   & -- & -- & 2.5\,kg + 1.25\,kg \\
+40\,kg   & -- & 2.5\,kg & 5\,kg + 1.25\,kg \\
+45\,kg   & -- & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg \\
+50\,kg   & -- & 5\,kg & 10\,kg \\
+55\,kg   & 1.25\,kg & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg \\
+60\,kg   & 2.5\,kg & 5\,kg + 2.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
+65\,kg   & 2.5\,kg & 10\,kg & 15\,kg + 1.25\,kg \\
+70\,kg   & 2.5\,kg + 1.25\,kg & 10\,kg + 1.25\,kg & 15\,kg + 2.5\,kg \\
+75\,kg   & 5\,kg & 10\,kg + 2.5\,kg & 20\,kg \\
+80\,kg   & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 20\,kg + 2.5\,kg \\
+85\,kg   & 5\,kg + 2.5\,kg & 15\,kg & 20\,kg + 2.5\,kg + 1.25\,kg \\
+90\,kg   & 5\,kg + 2.5\,kg & 15\,kg + 2.5\,kg & 25\,kg + 1.25\,kg \\
+95\,kg   & 5\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 2.5\,kg \\
+100\,kg  & 10\,kg & 20\,kg & 25\,kg + 5\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+\end{landscape}
+
+Work-set increment: +5\,kg total load
+
+Working sets are performed at the starting working weight, the starting working weight plus one increment, and the starting working weight plus two increments.
 
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Plates per side \\
+\midrule
+$\circ$ & 20\,kg  & -- \\
+$\circ$ & 25\,kg  & 2.5\,kg \\
+$\circ$ & 30\,kg  & 5\,kg \\
+$\circ$ & 35\,kg  & 5\,kg + 2.5\,kg \\
+$\circ$ & 40\,kg  & 10\,kg \\
+$\circ$ & 45\,kg  & 10\,kg + 2.5\,kg \\
+$\circ$ & 50\,kg  & 15\,kg \\
+$\circ$ & 55\,kg  & 15\,kg + 2.5\,kg \\
+$\circ$ & 60\,kg  & 20\,kg \\
+$\circ$ & 65\,kg  & 20\,kg + 2.5\,kg \\
+$\circ$ & 70\,kg  & 20\,kg + 5\,kg \\
+$\circ$ & 75\,kg  & 20\,kg + 5\,kg + 2.5\,kg \\
+$\circ$ & 80\,kg  & 20\,kg + 10\,kg \\
+$\circ$ & 85\,kg  & 20\,kg + 10\,kg + 2.5\,kg \\
+$\circ$ & 90\,kg  & 20\,kg + 15\,kg \\
+$\circ$ & 95\,kg  & 20\,kg + 15\,kg + 2.5\,kg \\
+$\circ$ & 100\,kg & 20\,kg + 20\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\subsubsection{Pendlay Row}
+
+Work: 2$\times$10
+
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Increase by +2$\times$1.25\,kg plates when every set finishes with 4 RIR or more.
+
+Retention: Keep the same working weight when every set finishes with approximately 1--3 RIR.
+
+Regression: Move down one row if the prescribed repetitions cannot be completed with acceptable technique.
+
+Technique: Begin each repetition with the bar resting motionless on the floor. Hinge at the hips until the torso is close to horizontal, brace the trunk, and maintain a rigid, neutral back throughout the lift. Pull the bar explosively but under control towards the lower chest or upper abdomen by driving the elbows backwards. Return the bar under control to the floor and allow it to settle completely before beginning the next repetition. Do not use the legs to initiate the lift, raise the torso to continue the set, bounce the bar from the floor, or turn the exercise into a conventional bent-over row.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 35\,kg.
+
+Work-set increment: +2.5\,kg total load
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Plates per side \\
+\midrule
+$\circ$ & 25\,kg & 2.5\,kg \\
+$\circ$ & 27.5\,kg & 2.5\,kg + 1.25\,kg \\
+$\circ$ & 30\,kg & 5\,kg \\
+$\circ$ & 32.5\,kg & 5\,kg + 1.25\,kg \\
+$\circ$ & 35\,kg & 5\,kg + 2.5\,kg \\
+$\circ$ & 37.5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
+$\circ$ & 40\,kg & 10\,kg \\
+$\circ$ & 42.5\,kg & 10\,kg + 1.25\,kg \\
+$\circ$ & 45\,kg & 10\,kg + 2.5\,kg \\
+$\circ$ & 47.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
+$\circ$ & 50\,kg & 15\,kg \\
+$\circ$ & 52.5\,kg & 15\,kg + 1.25\,kg \\
+$\circ$ & 55\,kg & 15\,kg + 2.5\,kg \\
+$\circ$ & 57.5\,kg & 15\,kg + 2.5\,kg + 1.25\,kg \\
+$\circ$ & 60\,kg & 20\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\subsection{Women (15 kg bar)}
+
+\subsubsection{Standing Calf Raise}
+
+Work: 2$\times$10
+
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Move to the next dumbbell pair when every set finishes with 4 RIR or more.
+
+Retention: Keep the same dumbbell pair when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous dumbbell pair if the prescribed repetitions cannot be completed with acceptable technique.
+
+Technique: Stand upright while holding one dumbbell in each hand. Keep the knees slightly unlocked but do not deliberately bend and straighten them during the repetition. Raise the heels as high as possible, pause briefly at the top, then lower under control until the calves are stretched. Use the largest comfortable range of motion on every repetition. Do not bounce out of the bottom position, cut the top position short, or turn the movement into a squat.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 15\,kg dumbbells in each hand.
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cl}
+\toprule
+Marker & Working weight \\
+\midrule
+$\circ$ & 2.5\,kg dumbbells in each hand \\
+$\circ$ & 5\,kg dumbbells in each hand \\
+$\circ$ & 7.5\,kg dumbbells in each hand \\
+$\circ$ & 10\,kg dumbbells in each hand \\
+$\circ$ & 12.5\,kg dumbbells in each hand \\
+$\circ$ & 15\,kg dumbbells in each hand \\
+$\circ$ & 17.5\,kg dumbbells in each hand \\
+$\circ$ & 20\,kg dumbbells in each hand \\
+$\circ$ & 22.5\,kg dumbbells in each hand \\
+$\circ$ & 27.5\,kg dumbbells in each hand \\
+$\circ$ & 30\,kg dumbbells in each hand \\
+$\circ$ & 32.5\,kg dumbbells in each hand \\
+$\circ$ & 35\,kg dumbbells in each hand \\
+$\circ$ & 40\,kg dumbbells in each hand \\
+$\circ$ & 45\,kg dumbbells in each hand \\
+$\circ$ & 50\,kg dumbbells in each hand \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\subsubsection{Suitcase Carry}
+
+Work: 2$\times$25\,m per side
+
+Target effort: Complete each carry with stable posture and without approaching technical breakdown.
+
+Progression: Move to the next kettlebell when both sets on each side are completed over the prescribed distance while maintaining an upright torso, level shoulders and a normal walking pace. After reaching the 44\,kg kettlebell, progress using the distance-progression table instead of increasing load.
+
+Retention: Keep the same kettlebell and distance when all carries are completed but posture, walking control or grip position are close to the limit of acceptable technique.
+
+Regression: Move to the previous kettlebell if posture, shoulder position, walking control or grip position cannot be maintained over 25\,m. When using the distance-progression table, move to the previous distance row if posture, shoulder position, walking control or grip position cannot be maintained over the prescribed distance.
+
+Technique: Hold the kettlebell at one side with a neutral grip and stand upright before beginning to walk. Brace the trunk, keep the shoulders level, and allow the arms to hang naturally without shrugging. Walk at a normal, comfortable pace using short, controlled steps while keeping the torso upright and avoiding excessive side-to-side movement. Turn carefully at the end of the prescribed distance before continuing if required. Do not lean towards or away from the kettlebell, use the free arm to brace against the body, run, or continue once grip or posture begins to fail.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 16\,kg kettlebell.
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cl}
 \toprule
 Marker & Working weight \\
 \midrule
 $\circ$ & 4\,kg kettlebell \\
-$\circ$ & 6\,kg kettlebell \\
 $\circ$ & 8\,kg kettlebell \\
-$\circ$ & 10\,kg kettlebell \\
 $\circ$ & 12\,kg kettlebell \\
 $\circ$ & 16\,kg kettlebell \\
 $\circ$ & 20\,kg kettlebell \\
@@ -734,16 +944,286 @@ $\circ$ & 32\,kg kettlebell \\
 $\circ$ & 36\,kg kettlebell \\
 $\circ$ & 40\,kg kettlebell \\
 $\circ$ & 44\,kg kettlebell \\
-$\circ$ & 48\,kg kettlebell \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\paragraph{Distance progression after 44\,kg}
+
+Once 44\,kg can be carried for 2$\times$25\,m per side with stable posture and normal walking control, keep the same kettlebell and increase the prescribed distance by 25\,m per side. Do not reduce the load automatically when distance increases; the purpose of this progression is to extend the same heavy unilateral carry stimulus. If a longer distance cannot be completed with acceptable posture, return to the previous distance row.
+
+The upper bound is 100\,m per side. Beyond this point, the exercise becomes increasingly time-consuming and conditioning-dominant rather than serving its main role in this programme: grip strength, trunk stiffness, frontal-plane control and loaded gait.
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Distance \\
+\midrule
+$\circ$ & 44\,kg kettlebell & 2$\times$25\,m per side \\
+$\circ$ & 44\,kg kettlebell & 2$\times$50\,m per side \\
+$\circ$ & 44\,kg kettlebell & 2$\times$75\,m per side \\
+$\circ$ & 44\,kg kettlebell & 2$\times$100\,m per side \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\subsubsection{Alternating Supinating Dumbbell Curl}
+
+Work: 2$\times$10
+
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Move to the next dumbbell when every set finishes with 4 RIR or more.
+
+Retention: Keep the same dumbbells when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous dumbbell if the prescribed repetitions cannot be completed with acceptable technique.
+
+Technique: Stand upright with one dumbbell in each hand and the arms fully extended. Curl one dumbbell at a time, beginning with the palm facing the body and gradually rotating the forearm so that the palm faces upwards near the top of the movement. Keep the upper arm close to the torso throughout the repetition and lower the dumbbell under control until the elbow is fully extended before beginning the next repetition on that side. Alternate arms throughout the set. Do not swing the torso, lean backwards, move the elbows forwards to shorten the movement, or use momentum to lift the weight.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 5\,kg dumbbells.
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cl}
+\toprule
+Marker & Working weight \\
+\midrule
+$\circ$ & 2.5\,kg dumbbells \\
+$\circ$ & 5\,kg dumbbells \\
+$\circ$ & 7.5\,kg dumbbells \\
+$\circ$ & 10\,kg dumbbells \\
+$\circ$ & 12.5\,kg dumbbells \\
+$\circ$ & 15\,kg dumbbells \\
+$\circ$ & 17.5\,kg dumbbells \\
+$\circ$ & 20\,kg dumbbells \\
+$\circ$ & 22.5\,kg dumbbells \\
+$\circ$ & 27.5\,kg dumbbells \\
+$\circ$ & 30\,kg dumbbells \\
+$\circ$ & 32.5\,kg dumbbells \\
+$\circ$ & 35\,kg dumbbells \\
+$\circ$ & 40\,kg dumbbells \\
+$\circ$ & 45\,kg dumbbells \\
+$\circ$ & 50\,kg dumbbells \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\subsubsection{Face Pull}
+
+Work: 2$\times$10
+
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Move to the next listed cable-machine load when every set finishes with 4 RIR or more.
+
+Retention: Keep the same cable-machine load when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous listed cable-machine load if the prescribed repetitions cannot be completed with the intended movement pattern and control.
+
+The listed weight refers to the total kettlebell load attached to the 1:1 pulley using a rope attachment. The loading column gives one valid combination using the available kettlebells.
+
+Technique: Stand or kneel far enough from the pulley that the cable remains under tension throughout the set. Begin with the arms extended and the shoulders allowed to reach forwards slightly. Pull the rope towards the face or forehead with the elbows high, allowing the hands to separate near the end of the movement. Finish with the upper arms roughly in line with the shoulders and the shoulder blades moving naturally around the rib cage. Return under control until the arms are extended again. Do not turn the movement into a pulldown, curl, triceps extension or back-extension exercise.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 8\,kg kettlebell.
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Kettlebell loading \\
+\midrule
+$\circ$ & 4\,kg & 4\,kg \\
+$\circ$ & 8\,kg & 8\,kg \\
+$\circ$ & 12\,kg & 12\,kg \\
+$\circ$ & 16\,kg & 16\,kg \\
+$\circ$ & 20\,kg & 20\,kg \\
+$\circ$ & 24\,kg & 24\,kg \\
+$\circ$ & 28\,kg & 28\,kg \\
+$\circ$ & 32\,kg & 32\,kg \\
+$\circ$ & 36\,kg & 36\,kg \\
+$\circ$ & 40\,kg & 40\,kg \\
+$\circ$ & 44\,kg & 44\,kg \\
+$\circ$ & 48\,kg & 24\,kg + 24\,kg \\
+$\circ$ & 52\,kg & 24\,kg + 28\,kg \\
+$\circ$ & 56\,kg & 28\,kg + 28\,kg \\
+$\circ$ & 60\,kg & 28\,kg + 32\,kg \\
+$\circ$ & 64\,kg & 32\,kg + 32\,kg \\
+$\circ$ & 68\,kg & 32\,kg + 36\,kg \\
+$\circ$ & 72\,kg & 32\,kg + 40\,kg \\
+$\circ$ & 76\,kg & 32\,kg + 44\,kg \\
+$\circ$ & 80\,kg & 36\,kg + 44\,kg \\
+$\circ$ & 84\,kg & 40\,kg + 44\,kg \\
+$\circ$ & 88\,kg & 28\,kg + 28\,kg + 32\,kg \\
+$\circ$ & 92\,kg & 28\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 96\,kg & 32\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 100\,kg & 32\,kg + 32\,kg + 36\,kg \\
+$\circ$ & 104\,kg & 32\,kg + 32\,kg + 40\,kg \\
+$\circ$ & 108\,kg & 32\,kg + 32\,kg + 44\,kg \\
+$\circ$ & 112\,kg & 32\,kg + 36\,kg + 44\,kg \\
+$\circ$ & 116\,kg & 32\,kg + 40\,kg + 44\,kg \\
+$\circ$ & 120\,kg & 36\,kg + 40\,kg + 44\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\subsubsection{Cable Crunch}
+
+Work: 2$\times$10
+
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Move to the next listed cable-machine load when every set finishes with 4 RIR or more.
+
+Retention: Keep the same cable-machine load when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous listed cable-machine load if the prescribed repetitions cannot be completed with the intended movement pattern and control.
+
+The listed weight refers to the total kettlebell load attached to the 1:1 pulley, with the loading column giving one valid combination using the available kettlebells.
+
+Technique: Use the rope attachment. Kneel or stand in a stable position and hold the rope beside the head or upper chest. Keep the hips mostly fixed and flex the spine by bringing the ribs down towards the pelvis. Pause briefly in the shortened position, then return under control until the trunk is extended again. Do not turn the movement into a hip hinge, pulldown or arm exercise.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 16\,kg kettlebell.
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Kettlebell loading \\
+\midrule
+$\circ$ & 4\,kg & 4\,kg \\
+$\circ$ & 8\,kg & 8\,kg \\
+$\circ$ & 12\,kg & 12\,kg \\
+$\circ$ & 16\,kg & 16\,kg \\
+$\circ$ & 20\,kg & 20\,kg \\
+$\circ$ & 24\,kg & 24\,kg \\
+$\circ$ & 28\,kg & 28\,kg \\
+$\circ$ & 32\,kg & 32\,kg \\
+$\circ$ & 36\,kg & 36\,kg \\
+$\circ$ & 40\,kg & 40\,kg \\
+$\circ$ & 44\,kg & 44\,kg \\
+$\circ$ & 48\,kg & 24\,kg + 24\,kg \\
+$\circ$ & 52\,kg & 24\,kg + 28\,kg \\
+$\circ$ & 56\,kg & 28\,kg + 28\,kg \\
+$\circ$ & 60\,kg & 28\,kg + 32\,kg \\
+$\circ$ & 64\,kg & 32\,kg + 32\,kg \\
+$\circ$ & 68\,kg & 32\,kg + 36\,kg \\
+$\circ$ & 72\,kg & 32\,kg + 40\,kg \\
+$\circ$ & 76\,kg & 32\,kg + 44\,kg \\
+$\circ$ & 80\,kg & 36\,kg + 44\,kg \\
+$\circ$ & 84\,kg & 40\,kg + 44\,kg \\
+$\circ$ & 88\,kg & 28\,kg + 28\,kg + 32\,kg \\
+$\circ$ & 92\,kg & 28\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 96\,kg & 32\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 100\,kg & 32\,kg + 32\,kg + 36\,kg \\
+$\circ$ & 104\,kg & 32\,kg + 32\,kg + 40\,kg \\
+$\circ$ & 108\,kg & 32\,kg + 32\,kg + 44\,kg \\
+$\circ$ & 112\,kg & 32\,kg + 36\,kg + 44\,kg \\
+$\circ$ & 116\,kg & 32\,kg + 40\,kg + 44\,kg \\
+$\circ$ & 120\,kg & 36\,kg + 40\,kg + 44\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\subsubsection{Lat Pulldown}
+
+Work: 2$\times$10
+
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Move to the next listed cable-machine load when every set finishes with 4 RIR or more.
+
+Retention: Keep the same cable-machine load when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous listed cable-machine load if the prescribed repetitions cannot be completed with the intended movement pattern and control.
+
+The listed weight refers to the total kettlebell load attached to the 1:1 pulley, with the loading column giving one valid combination using the available kettlebells.
+
+Technique: Sit or kneel in a stable position so that the cable runs vertically and remains under tension throughout the movement. Begin each repetition with the arms fully extended overhead and the shoulders allowed to rise naturally. Pull the handle down towards the upper chest by driving the elbows down and slightly back. Pause briefly at the bottom, then return under control until the elbows are fully extended again. Do not lean back excessively, swing the torso, shorten the overhead position, or turn the movement into a row.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 24\,kg kettlebell.
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Kettlebell loading \\
+\midrule
+$\circ$ & 4\,kg & 4\,kg \\
+$\circ$ & 8\,kg & 8\,kg \\
+$\circ$ & 12\,kg & 12\,kg \\
+$\circ$ & 16\,kg & 16\,kg \\
+$\circ$ & 20\,kg & 20\,kg \\
+$\circ$ & 24\,kg & 24\,kg \\
+$\circ$ & 28\,kg & 28\,kg \\
+$\circ$ & 32\,kg & 32\,kg \\
+$\circ$ & 36\,kg & 36\,kg \\
+$\circ$ & 40\,kg & 40\,kg \\
+$\circ$ & 44\,kg & 44\,kg \\
+$\circ$ & 48\,kg & 24\,kg + 24\,kg \\
+$\circ$ & 52\,kg & 24\,kg + 28\,kg \\
+$\circ$ & 56\,kg & 28\,kg + 28\,kg \\
+$\circ$ & 60\,kg & 28\,kg + 32\,kg \\
+$\circ$ & 64\,kg & 32\,kg + 32\,kg \\
+$\circ$ & 68\,kg & 32\,kg + 36\,kg \\
+$\circ$ & 72\,kg & 32\,kg + 40\,kg \\
+$\circ$ & 76\,kg & 32\,kg + 44\,kg \\
+$\circ$ & 80\,kg & 36\,kg + 44\,kg \\
+$\circ$ & 84\,kg & 40\,kg + 44\,kg \\
+$\circ$ & 88\,kg & 28\,kg + 28\,kg + 32\,kg \\
+$\circ$ & 92\,kg & 28\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 96\,kg & 32\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 100\,kg & 32\,kg + 32\,kg + 36\,kg \\
+$\circ$ & 104\,kg & 32\,kg + 32\,kg + 40\,kg \\
+$\circ$ & 108\,kg & 32\,kg + 32\,kg + 44\,kg \\
+$\circ$ & 112\,kg & 32\,kg + 36\,kg + 44\,kg \\
+$\circ$ & 116\,kg & 32\,kg + 40\,kg + 44\,kg \\
+$\circ$ & 120\,kg & 36\,kg + 40\,kg + 44\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 
 \subsubsection{Deadlift}
 
 Work: 3$\times$5
 
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 55\,kg.
+Target effort: The final working set should finish with approximately one repetition in reserve (1 RIR). The first and second working sets may be easier.
+
+Progression: Increase the starting working weight by one row when the final working set finishes with 2 RIR or more and all working sets are completed with acceptable technique.
+
+Retention: Keep the same starting working weight when the final working set finishes with approximately 1 RIR.
+
+Regression: Move down one row if technical failure occurs, or if acceptable technique is lost before all prescribed repetitions have been completed. If this happens in two consecutive sessions, move down two rows from the original failed load.
+
+Technique: Position the bar over the middle of the feet and take a grip just outside the legs. Brace the trunk before each repetition and maintain a rigid, neutral back throughout the lift. Push the floor away while keeping the bar close to the body, allowing the hips and shoulders to rise together until standing upright. At the top, stand tall without leaning backwards or shrugging the shoulders. Lower the bar under control by hinging at the hips before bending the knees once the bar has passed them, returning the bar to the floor under control before beginning the next repetition. Do not bounce the bar, hitch the lift, round the back, or allow the bar to drift forwards away from the legs.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 50\,kg.
 
 \paragraph{Warm-up}
 
@@ -753,8 +1233,8 @@ Warm-up loads are rounded to the nearest load that can be assembled using the av
 
 \begin{landscape}
 \begin{center}
-\scriptsize
-\renewcommand{\arraystretch}{1.12}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{c p{4.3cm} p{4.3cm} p{4.3cm}}
 \toprule
 Starting working weight &
@@ -772,42 +1252,47 @@ Starting working weight &
 37.5\,kg & 2.5\,kg & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg \\
 40\,kg   & 2.5\,kg & 5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
 42.5\,kg & 2.5\,kg & 5\,kg & 10\,kg \\
-45\,kg   & 2.5\,kg & 5\,kg + 1.25\,kg & 10\,kg + 1.25\,kg \\
-47.5\,kg & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg & 10\,kg + 2.5\,kg \\
-50\,kg   & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg \\
-52.5\,kg & 2.5\,kg & 10\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
-55\,kg   & 2.5\,kg + 1.25\,kg & 10\,kg & 15\,kg \\
-57.5\,kg & 5\,kg & 10\,kg & 15\,kg + 1.25\,kg \\
-60\,kg   & 5\,kg & 10\,kg + 1.25\,kg & 15\,kg + 1.25\,kg \\
-62.5\,kg & 5\,kg & 10\,kg + 2.5\,kg & 15\,kg + 2.5\,kg \\
-65\,kg   & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 2.5\,kg + 1.25\,kg \\
-67.5\,kg & 5\,kg + 1.25\,kg & 15\,kg & 15\,kg + 5\,kg \\
-70\,kg   & 5\,kg + 2.5\,kg & 15\,kg + 1.25\,kg & 15\,kg + 5\,kg + 1.25\,kg \\
-72.5\,kg & 5\,kg + 2.5\,kg & 15\,kg + 2.5\,kg & 15\,kg + 5\,kg + 2.5\,kg \\
-75\,kg   & 5\,kg + 2.5\,kg & 15\,kg & 15\,kg + 5\,kg + 2.5\,kg \\
-77.5\,kg & 10\,kg & 15\,kg + 2.5\,kg & 15\,kg + 10\,kg \\
-80\,kg   & 10\,kg + 1.25\,kg & 15\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 10\,kg + 1.25\,kg \\
-82.5\,kg & 10\,kg + 1.25\,kg & 15\,kg + 5\,kg & 15\,kg + 10\,kg + 2.5\,kg \\
-85\,kg   & 10\,kg + 2.5\,kg & 15\,kg + 5\,kg + 1.25\,kg & 15\,kg + 10\,kg + 2.5\,kg + 1.25\,kg \\
-87.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 5\,kg + 2.5\,kg & 15\,kg + 15\,kg \\
-90\,kg   & 10\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 5\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 15\,kg + 1.25\,kg \\
-92.5\,kg & 15\,kg & 15\,kg + 10\,kg & 15\,kg + 15\,kg + 2.5\,kg \\
-95\,kg   & 15\,kg & 15\,kg + 10\,kg + 1.25\,kg & 15\,kg + 15\,kg + 2.5\,kg + 1.25\,kg \\
-97.5\,kg & 15\,kg + 1.25\,kg & 15\,kg + 10\,kg + 2.5\,kg & 15\,kg + 15\,kg + 5\,kg \\
-100\,kg  & 15\,kg + 2.5\,kg & 15\,kg + 10\,kg + 2.5\,kg & 15\,kg + 15\,kg + 5\,kg \\
-102.5\,kg & 15\,kg + 2.5\,kg & 15\,kg + 10\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 15\,kg + 5\,kg + 1.25\,kg \\
-105\,kg  & 15\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 15\,kg & 15\,kg + 15\,kg + 5\,kg + 2.5\,kg \\
+45\,kg   & 2.5\,kg & 5\,kg + 1.25\,kg & 10\,kg \\
+47.5\,kg & 2.5\,kg & 5\,kg + 1.25\,kg & 10\,kg + 1.25\,kg \\
+50\,kg   & 2.5\,kg & 5\,kg + 2.5\,kg & 10\,kg + 2.5\,kg \\
+52.5\,kg & 2.5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
+55\,kg   & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg + 1.25\,kg & 15\,kg \\
+57.5\,kg & 2.5\,kg + 1.25\,kg & 10\,kg & 15\,kg \\
+60\,kg   & 5\,kg & 10\,kg & 15\,kg + 1.25\,kg \\
+62.5\,kg & 5\,kg & 10\,kg + 1.25\,kg & 15\,kg + 2.5\,kg \\
+65\,kg   & 5\,kg & 10\,kg + 2.5\,kg & 15\,kg + 2.5\,kg + 1.25\,kg \\
+67.5\,kg & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg & 20\,kg \\
+70\,kg   & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 20\,kg \\
+72.5\,kg & 5\,kg + 2.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 20\,kg + 1.25\,kg \\
+75\,kg   & 5\,kg + 2.5\,kg & 15\,kg & 20\,kg + 2.5\,kg \\
+77.5\,kg & 5\,kg + 2.5\,kg & 15\,kg + 1.25\,kg & 20\,kg + 2.5\,kg + 1.25\,kg \\
+80\,kg   & 5\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 1.25\,kg & 25\,kg \\
+82.5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 2.5\,kg & 25\,kg \\
+85\,kg   & 10\,kg & 15\,kg + 2.5\,kg & 25\,kg + 1.25\,kg \\
+87.5\,kg & 10\,kg & 15\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 2.5\,kg \\
+90\,kg   & 10\,kg & 20\,kg & 25\,kg + 2.5\,kg + 1.25\,kg \\
+92.5\,kg & 10\,kg + 1.25\,kg & 20\,kg & 25\,kg + 5\,kg \\
+95\,kg   & 10\,kg + 1.25\,kg & 20\,kg + 1.25\,kg & 25\,kg + 5\,kg \\
+97.5\,kg & 10\,kg + 2.5\,kg & 20\,kg + 1.25\,kg & 25\,kg + 5\,kg + 1.25\,kg \\
+100\,kg  & 10\,kg + 2.5\,kg & 20\,kg + 2.5\,kg & 25\,kg + 5\,kg + 2.5\,kg \\
+102.5\,kg & 10\,kg + 2.5\,kg & 20\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 5\,kg + 2.5\,kg + 1.25\,kg \\
+105\,kg  & 10\,kg + 2.5\,kg + 1.25\,kg & 20\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 10\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \renewcommand{\arraystretch}{1}
 \end{center}
 \end{landscape}
 
 Work-set increment: +2.5\,kg total load
 
+Working sets are performed at the starting working weight, the starting working weight plus one increment, and the starting working weight plus two increments.
+
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cll}
 \toprule
 Marker & Working weight & Plates per side \\
@@ -849,13 +1334,25 @@ $\circ$ & 102.5\,kg & 15\,kg + 15\,kg + 10\,kg + 2.5\,kg + 1.25\,kg \\
 $\circ$ & 105\,kg  & 15\,kg + 15\,kg + 15\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 
 \subsubsection{Bench Press}
 
 Work: 3$\times$5
 
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 35\,kg.
+Target effort: The final working set should finish with approximately one repetition in reserve (1 RIR). The first and second working sets may be easier. Do not take this lift to technical failure unless a competent spotter or suitable safety equipment is available.
+
+Progression: Increase the starting working weight by one row when the final working set finishes with 2 RIR or more and all working sets are completed with acceptable technique.
+
+Retention: Keep the same starting working weight when the final working set finishes with approximately 1 RIR.
+
+Regression: Move down one row if technical failure occurs, or if acceptable technique is lost before all prescribed repetitions have been completed. If this happens in two consecutive sessions, move down two rows from the original failed load.
+
+Technique: Lie on the bench with the eyes beneath or slightly behind the bar. Retract and depress the shoulder blades, keep the chest lifted, and place the feet firmly on the floor throughout the set. Grip the bar so that the forearms are approximately vertical when the bar reaches the chest. Lower the bar under control until it lightly touches the lower chest or sternum without bouncing, then press it upwards and slightly backwards until the elbows are fully extended. Keep the shoulders stable and the hips in contact with the bench throughout the repetition. Do not bounce the bar from the chest, allow the elbows to flare excessively, or attempt repetitions that cannot be completed safely without a competent spotter or suitable safety equipment.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 30\,kg.
 
 \paragraph{Warm-up}
 
@@ -865,8 +1362,8 @@ Warm-up loads are rounded to the nearest load that can be assembled using the av
 
 \begin{landscape}
 \begin{center}
-\small
-\renewcommand{\arraystretch}{1.15}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{c p{4cm} p{4cm} p{4cm}}
 \toprule
 Starting working weight &
@@ -875,29 +1372,34 @@ Starting working weight &
 1$\times$1 (80\%) \\
 \midrule
 15\,kg   & -- & -- & -- \\
-17.5\,kg & -- & -- & 1.25\,kg \\
-20\,kg   & -- & -- & 2.5\,kg \\
-22.5\,kg & -- & 1.25\,kg & 2.5\,kg + 1.25\,kg \\
-25\,kg   & -- & 2.5\,kg & 5\,kg \\
-27.5\,kg & -- & 2.5\,kg + 1.25\,kg & 5\,kg + 1.25\,kg \\
-30\,kg   & -- & 5\,kg & 5\,kg + 2.5\,kg \\
-32.5\,kg & -- & 5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
-35\,kg   & -- & 5\,kg + 2.5\,kg & 10\,kg \\
-37.5\,kg & -- & 5\,kg + 2.5\,kg + 1.25\,kg & 10\,kg + 1.25\,kg \\
-40\,kg   & 1.25\,kg & 10\,kg & 10\,kg + 2.5\,kg \\
-42.5\,kg & 1.25\,kg & 10\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
-45\,kg   & 2.5\,kg & 10\,kg + 2.5\,kg & 15\,kg \\
+17.5\,kg & -- & -- & -- \\
+20\,kg   & -- & -- & -- \\
+22.5\,kg & -- & -- & 1.25\,kg \\
+25\,kg   & -- & -- & 2.5\,kg \\
+27.5\,kg & -- & 1.25\,kg & 2.5\,kg + 1.25\,kg \\
+30\,kg   & -- & 1.25\,kg & 5\,kg \\
+32.5\,kg & -- & 2.5\,kg & 5\,kg \\
+35\,kg   & -- & 2.5\,kg & 5\,kg + 1.25\,kg \\
+37.5\,kg & -- & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg \\
+40\,kg   & -- & 5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
+42.5\,kg & 1.25\,kg & 5\,kg & 10\,kg \\
+45\,kg   & 1.25\,kg & 5\,kg + 1.25\,kg & 10\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
 \renewcommand{\arraystretch}{1}
 \end{center}
 \end{landscape}
 
 Work-set increment: +2.5\,kg total load
 
+Working sets are performed at the starting working weight, the starting working weight plus one increment, and the starting working weight plus two increments.
+
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cll}
 \toprule
 Marker & Working weight & Plates per side \\
@@ -917,109 +1419,23 @@ $\circ$ & 42.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
 $\circ$ & 45\,kg   & 15\,kg \\
 \bottomrule
 \end{tabular}
-\end{center}
-
-\subsubsection{Back Squat}
-
-Work: 3$\times$5
-
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 45\,kg.
-
-\paragraph{Warm-up}
-
-Use the current starting working weight and the corresponding plate loading from the lookup table below. Plate loading is expressed as the plates to be placed on \emph{each side} of a 15\,kg bar. A dash indicates the empty bar.
-
-Warm-up loads are rounded to the nearest load that can be assembled using the available equipment. Where the calculated load is below the empty bar, perform the set using the empty bar only.
-
-\begin{landscape}
-\begin{center}
-\small
-\renewcommand{\arraystretch}{1.15}
-\begin{tabular}{c p{4cm} p{4cm} p{4cm}}
-\toprule
-Starting working weight &
-1$\times$5 (40\%) &
-1$\times$3 (60\%) &
-1$\times$1 (80\%) \\
-\midrule
-15\,kg & -- & -- & -- \\
-20\,kg & -- & -- & 2.5\,kg \\
-25\,kg & -- & 2.5\,kg & 5\,kg \\
-30\,kg & -- & 5\,kg & 5\,kg + 2.5\,kg \\
-35\,kg & -- & 5\,kg + 1.25\,kg & 10\,kg \\
-40\,kg & 1.25\,kg & 10\,kg & 10\,kg + 2.5\,kg \\
-45\,kg & 2.5\,kg & 10\,kg + 2.5\,kg & 15\,kg \\
-50\,kg & 2.5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 2.5\,kg \\
-55\,kg & 5\,kg & 15\,kg & 20\,kg \\
-60\,kg & 5\,kg + 1.25\,kg & 15\,kg + 1.25\,kg & 20\,kg + 2.5\,kg \\
-65\,kg & 5\,kg + 2.5\,kg & 15\,kg + 2.5\,kg & 25\,kg \\
-70\,kg & 5\,kg + 2.5\,kg + 1.25\,kg & 15\,kg + 2.5\,kg + 1.25\,kg & 25\,kg + 2.5\,kg \\
-75\,kg & 10\,kg & 20\,kg & 15\,kg + 15\,kg \\
-\bottomrule
-\end{tabular}
+\end{adjustbox}
 \renewcommand{\arraystretch}{1}
-\end{center}
-\end{landscape}
-
-Work-set increment: +5\,kg total load
-
-Starting working weight:
-
-\begin{center}
-\begin{tabular}{cll}
-\toprule
-Marker & Working weight & Plates per side \\
-\midrule
-$\circ$ & 15\,kg & -- \\
-$\circ$ & 20\,kg & 2.5\,kg \\
-$\circ$ & 25\,kg & 5\,kg \\
-$\circ$ & 30\,kg & 5\,kg + 2.5\,kg \\
-$\circ$ & 35\,kg & 10\,kg \\
-$\circ$ & 40\,kg & 10\,kg + 2.5\,kg \\
-$\circ$ & 45\,kg & 15\,kg \\
-$\circ$ & 50\,kg & 15\,kg + 2.5\,kg \\
-$\circ$ & 55\,kg & 20\,kg \\
-$\circ$ & 60\,kg & 20\,kg + 2.5\,kg \\
-$\circ$ & 65\,kg & 25\,kg \\
-$\circ$ & 70\,kg & 25\,kg + 2.5\,kg \\
-$\circ$ & 75\,kg & 15\,kg + 15\,kg \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\subsubsection{Pendlay Row}
-
-Work: 2$\times$10
-
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 30\,kg.
-
-Work-set increment: +2.5\,kg total load
-
-Starting working weight:
-
-\begin{center}
-\begin{tabular}{cll}
-\toprule
-Marker & Working weight & Plates per side \\
-\midrule
-$\circ$ & 20\,kg & 2.5\,kg \\
-$\circ$ & 22.5\,kg & 2.5\,kg + 1.25\,kg \\
-$\circ$ & 25\,kg & 5\,kg \\
-$\circ$ & 27.5\,kg & 5\,kg + 1.25\,kg \\
-$\circ$ & 30\,kg & 5\,kg + 2.5\,kg \\
-$\circ$ & 32.5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
-$\circ$ & 35\,kg & 10\,kg \\
-$\circ$ & 37.5\,kg & 10\,kg + 1.25\,kg \\
-$\circ$ & 40\,kg & 10\,kg + 2.5\,kg \\
-$\circ$ & 42.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
-$\circ$ & 45\,kg & 15\,kg \\
-\bottomrule
-\end{tabular}
 \end{center}
 
 \subsubsection{Strict Press}
 
 Work: 2$\times$10
+
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Increase by +2$\times$1.25\,kg plates when every set finishes with 4 RIR or more.
+
+Retention: Keep the same working weight when every set finishes with approximately 1--3 RIR.
+
+Regression: Move down one row if the prescribed repetitions cannot be completed with acceptable technique.
+
+Technique: Stand with the bar resting on the upper chest and shoulders, brace the trunk, and keep the body rigid throughout the lift. Press the bar overhead until the elbows are fully extended, moving the head slightly back as the bar passes the face and then bringing the head through once the bar is overhead. Lower the bar under control to the starting position. Keep the wrists stacked over the forearms and the finished bar position balanced over the midfoot. Do not use leg drive, excessive back extension, or momentum to assist the lift. If these are required to complete the repetition, the weight should be reduced.
 
 Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 25\,kg.
 
@@ -1028,6 +1444,8 @@ Work-set increment: +2.5\,kg total load
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cll}
 \toprule
 Marker & Working weight & Plates per side \\
@@ -1047,22 +1465,151 @@ $\circ$ & 42.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
 $\circ$ & 45\,kg & 15\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\subsubsection{Back Squat}
+
+Work: 3$\times$5
+
+Target effort: The final working set should finish with approximately one repetition in reserve (1 RIR). The first and second working sets may be easier. Do not take this lift to technical failure unless suitable safety equipment is available.
+
+Progression: Increase the starting working weight by one row when the final working set finishes with 2 RIR or more and all working sets are completed with acceptable technique.
+
+Retention: Keep the same starting working weight when the final working set finishes with approximately 1 RIR.
+
+Regression: Move down one row if technical failure occurs, or if acceptable technique is lost before all prescribed repetitions have been completed. If this happens in two consecutive sessions, move down two rows from the original failed load.
+
+Technique: Position the bar securely across the upper back and adopt a stance that allows a comfortable, stable squat. Brace the trunk before each repetition and keep the whole foot in contact with the floor throughout the movement. Descend under control until the hip crease is at least level with the top of the knee, or to the deepest position that can be reached while maintaining a neutral spine and control. Drive upwards by pushing evenly through the feet while keeping the knees tracking broadly in line with the toes. Stand fully upright before beginning the next repetition. Do not allow the heels to lift, the knees to collapse inwards, the back to lose its neutral position, or the bar to drift away from the midfoot.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 45\,kg.
+
+\paragraph{Warm-up}
+
+Use the current starting working weight and the corresponding plate loading from the lookup table below. Plate loading is expressed as the plates to be placed on \emph{each side} of a 15\,kg bar. A dash indicates the empty bar.
+
+Warm-up loads are rounded to the nearest load that can be assembled using the available equipment. Where the calculated load is below the empty bar, perform the set using the empty bar only.
+
+\begin{landscape}
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{c p{4cm} p{4cm} p{4cm}}
+\toprule
+Starting working weight &
+1$\times$5 (40\%) &
+1$\times$3 (60\%) &
+1$\times$1 (80\%) \\
+\midrule
+15\,kg   & -- & -- & -- \\
+20\,kg   & -- & -- & -- \\
+25\,kg   & -- & -- & 2.5\,kg \\
+30\,kg   & -- & 1.25\,kg & 5\,kg \\
+35\,kg   & -- & 2.5\,kg & 5\,kg + 1.25\,kg \\
+40\,kg   & -- & 5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
+45\,kg   & 1.25\,kg & 5\,kg + 1.25\,kg & 10\,kg \\
+50\,kg   & 2.5\,kg & 5\,kg + 2.5\,kg & 10\,kg + 2.5\,kg \\
+55\,kg   & 2.5\,kg + 1.25\,kg & 5\,kg + 2.5\,kg + 1.25\,kg & 15\,kg \\
+60\,kg   & 5\,kg & 10\,kg & 15\,kg + 1.25\,kg \\
+65\,kg   & 5\,kg & 10\,kg + 2.5\,kg & 15\,kg + 2.5\,kg + 1.25\,kg \\
+70\,kg   & 5\,kg + 1.25\,kg & 10\,kg + 2.5\,kg + 1.25\,kg & 20\,kg \\
+75\,kg   & 5\,kg + 2.5\,kg & 15\,kg & 20\,kg + 2.5\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+\end{landscape}
+
+Work-set increment: +5\,kg total load
+
+Working sets are performed at the starting working weight, the starting working weight plus one increment, and the starting working weight plus two increments.
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Plates per side \\
+\midrule
+$\circ$ & 15\,kg & -- \\
+$\circ$ & 20\,kg & 2.5\,kg \\
+$\circ$ & 25\,kg & 5\,kg \\
+$\circ$ & 30\,kg & 5\,kg + 2.5\,kg \\
+$\circ$ & 35\,kg & 10\,kg \\
+$\circ$ & 40\,kg & 10\,kg + 2.5\,kg \\
+$\circ$ & 45\,kg & 15\,kg \\
+$\circ$ & 50\,kg & 15\,kg + 2.5\,kg \\
+$\circ$ & 55\,kg & 20\,kg \\
+$\circ$ & 60\,kg & 20\,kg + 2.5\,kg \\
+$\circ$ & 65\,kg & 25\,kg \\
+$\circ$ & 70\,kg & 25\,kg + 2.5\,kg \\
+$\circ$ & 75\,kg & 15\,kg + 15\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\subsubsection{Pendlay Row}
+
+Work: 2$\times$10
+
+Target effort: Finish each set with approximately three repetitions in reserve (3 RIR).
+
+Progression: Increase by +2$\times$1.25\,kg plates when every set finishes with 4 RIR or more.
+
+Retention: Keep the same working weight when every set finishes with approximately 1--3 RIR.
+
+Regression: Move down one row if the prescribed repetitions cannot be completed with acceptable technique.
+
+Technique: Begin each repetition with the bar resting motionless on the floor. Hinge at the hips until the torso is close to horizontal, brace the trunk, and maintain a rigid, neutral back throughout the lift. Pull the bar explosively but under control towards the lower chest or upper abdomen by driving the elbows backwards. Return the bar under control to the floor and allow it to settle completely before beginning the next repetition. Do not use the legs to initiate the lift, raise the torso to continue the set, bounce the bar from the floor, or turn the exercise into a conventional bent-over row.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 30\,kg.
+
+Work-set increment: +2.5\,kg total load
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Plates per side \\
+\midrule
+$\circ$ & 20\,kg & 2.5\,kg \\
+$\circ$ & 22.5\,kg & 2.5\,kg + 1.25\,kg \\
+$\circ$ & 25\,kg & 5\,kg \\
+$\circ$ & 27.5\,kg & 5\,kg + 1.25\,kg \\
+$\circ$ & 30\,kg & 5\,kg + 2.5\,kg \\
+$\circ$ & 32.5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
+$\circ$ & 35\,kg & 10\,kg \\
+$\circ$ & 37.5\,kg & 10\,kg + 1.25\,kg \\
+$\circ$ & 40\,kg & 10\,kg + 2.5\,kg \\
+$\circ$ & 42.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
+$\circ$ & 45\,kg & 15\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 
 %=========================================================
 \section{Alternative Hypertrophy Block}
 
-Target effort: Finish every working set with approximately one repetition in reserve (1 RIR).
-
 Use this variant when training time is limited or when a simpler, hypertrophy-focused session is preferred.
 
-Omit the Warm-up \& Accessory Block.
+For percentage-based lifts, do not progress beyond 90\%. If 90\% becomes too easy, continue at 90\% or return to the Main Strength Block.
 
-Before Deadlift, Bench Press or Back Squat, perform the warm-up sequence corresponding to the selected Alternative Hypertrophy Block working weight. If the selected working weight is already very light, use only the empty bar or minimum floor-pull load as appropriate.
+Before Deadlift, Bench Press or Back Squat, perform the warm-up sequence using the selected Alternative Hypertrophy Block working weight. Where no exact warm-up row is listed for that working weight, use the nearest lower listed warm-up row. If the selected working weight is already very light, use only the empty bar or minimum floor-pull load as appropriate.
 
-Perform only the six Main Strength Block movements for 2$\times$10, using the same weight for both sets.
+In the Alternative Hypertrophy Block, perform only Deadlift, Bench Press, Back Squat, Pendlay Row, Strict Press and Lat Pulldown for 2$\times$10, using the same weight for both sets. Omit Standing Calf Raise, Suitcase Carry, Alternating Supinating Dumbbell Curl, Face Pull and Cable Crunch in this block.
 
-For Deadlift, Bench Press and Back Squat, use the row for the current main-programme starting working weight and the column for the current percentage. All percentage values are rounded to the nearest load that can be assembled with the available plates. Where the calculated load is below the empty bar, use the empty bar. For Deadlift, use the minimum floor-pull load listed in the Main Strength Block instead of the empty bar.
+For Deadlift, Bench Press and Back Squat, use the row for the current Main starting working weight and the column for the current percentage. All percentage values are rounded to the nearest load that can be assembled with the available plates. Where the calculated load is below the empty bar, use the empty bar. For Deadlift, use the minimum floor-pull load listed in the Main Strength Block instead of the empty bar.
 
 \subsection{Men (20 kg bar)}
 
@@ -1070,77 +1617,121 @@ For Deadlift, Bench Press and Back Squat, use the row for the current main-progr
 
 Work: 2$\times$10
 
-The listed weight refers to the kettlebell load attached to the 1:1 pulley.
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
+
+Progression: Move to the next listed cable-machine load when every set finishes with 4 RIR or more.
+
+Retention: Keep the same cable-machine load when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous listed cable-machine load if the prescribed repetitions cannot be completed with the intended movement pattern and control.
+
+The listed weight refers to the total kettlebell load attached to the 1:1 pulley, with the loading column giving one valid combination using the available kettlebells.
+
+Technique: Sit or kneel in a stable position so that the cable runs vertically and remains under tension throughout the movement. Begin each repetition with the arms fully extended overhead and the shoulders allowed to rise naturally. Pull the handle down towards the upper chest by driving the elbows down and slightly back. Pause briefly at the bottom, then return under control until the elbows are fully extended again. Do not lean back excessively, swing the torso, shorten the overhead position, or turn the movement into a row.
 
 Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 32\,kg kettlebell.
 
 Starting working weight:
 
 \begin{center}
-\begin{tabular}{cl}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
 \toprule
-Marker & Working weight \\
+Marker & Working weight & Kettlebell loading \\
 \midrule
-$\circ$ & 4\,kg kettlebell \\
-$\circ$ & 6\,kg kettlebell \\
-$\circ$ & 8\,kg kettlebell \\
-$\circ$ & 10\,kg kettlebell \\
-$\circ$ & 12\,kg kettlebell \\
-$\circ$ & 16\,kg kettlebell \\
-$\circ$ & 20\,kg kettlebell \\
-$\circ$ & 24\,kg kettlebell \\
-$\circ$ & 28\,kg kettlebell \\
-$\circ$ & 32\,kg kettlebell \\
-$\circ$ & 36\,kg kettlebell \\
-$\circ$ & 40\,kg kettlebell \\
-$\circ$ & 44\,kg kettlebell \\
-$\circ$ & 48\,kg kettlebell \\
+$\circ$ & 4\,kg & 4\,kg \\
+$\circ$ & 8\,kg & 8\,kg \\
+$\circ$ & 12\,kg & 12\,kg \\
+$\circ$ & 16\,kg & 16\,kg \\
+$\circ$ & 20\,kg & 20\,kg \\
+$\circ$ & 24\,kg & 24\,kg \\
+$\circ$ & 28\,kg & 28\,kg \\
+$\circ$ & 32\,kg & 32\,kg \\
+$\circ$ & 36\,kg & 36\,kg \\
+$\circ$ & 40\,kg & 40\,kg \\
+$\circ$ & 44\,kg & 44\,kg \\
+$\circ$ & 48\,kg & 24\,kg + 24\,kg \\
+$\circ$ & 52\,kg & 24\,kg + 28\,kg \\
+$\circ$ & 56\,kg & 28\,kg + 28\,kg \\
+$\circ$ & 60\,kg & 28\,kg + 32\,kg \\
+$\circ$ & 64\,kg & 32\,kg + 32\,kg \\
+$\circ$ & 68\,kg & 32\,kg + 36\,kg \\
+$\circ$ & 72\,kg & 32\,kg + 40\,kg \\
+$\circ$ & 76\,kg & 32\,kg + 44\,kg \\
+$\circ$ & 80\,kg & 36\,kg + 44\,kg \\
+$\circ$ & 84\,kg & 40\,kg + 44\,kg \\
+$\circ$ & 88\,kg & 28\,kg + 28\,kg + 32\,kg \\
+$\circ$ & 92\,kg & 28\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 96\,kg & 32\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 100\,kg & 32\,kg + 32\,kg + 36\,kg \\
+$\circ$ & 104\,kg & 32\,kg + 32\,kg + 40\,kg \\
+$\circ$ & 108\,kg & 32\,kg + 32\,kg + 44\,kg \\
+$\circ$ & 112\,kg & 32\,kg + 36\,kg + 44\,kg \\
+$\circ$ & 116\,kg & 32\,kg + 40\,kg + 44\,kg \\
+$\circ$ & 120\,kg & 36\,kg + 40\,kg + 44\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 
 \subsubsection{Deadlift}
 
 Work: 2$\times$10
 
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
+
+Progression: Increase the percentage by five percentage points when every set finishes with 4 RIR or more.
+
+Retention: Keep the same percentage when every set finishes with approximately 1--3 RIR.
+
+Regression: Decrease the percentage by five percentage points if any set reaches 0 RIR but all repetitions are completed with acceptable technique. Decrease the percentage by ten percentage points if technical failure occurs or technique breaks down before all prescribed repetitions are completed.
+
+Technique: Position the bar over the middle of the feet and take a grip just outside the legs. Brace the trunk before each repetition and maintain a rigid, neutral back throughout the lift. Push the floor away while keeping the bar close to the body, allowing the hips and shoulders to rise together until standing upright. At the top, stand tall without leaning backwards or shrugging the shoulders. Lower the bar under control by hinging at the hips before bending the knees once the bar has passed them, returning the bar to the floor under control before beginning the next repetition. Do not bounce the bar, hitch the lift, round the back, or allow the bar to drift forwards away from the legs.
+
 Recommended starting percentage: 70\%.
 
 Starting working weight:
 
-Use the row corresponding to the current main-programme starting working weight and the column corresponding to the current percentage.
+Use the row corresponding to the current Main starting working weight and the column corresponding to the current percentage.
 
 \begin{landscape}
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{crrrrrrrrr}
 \toprule
 Main starting working weight & 50\% & 55\% & 60\% & 65\% & 70\% & 75\% & 80\% & 85\% & 90\% \\
 \midrule
-25\,kg  & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg \\
-30\,kg  & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 27.5\,kg \\
-35\,kg  & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 27.5\,kg & 27.5\,kg & 30\,kg & 32.5\,kg \\
-40\,kg  & 25\,kg & 25\,kg & 25\,kg & 27.5\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg \\
-45\,kg  & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg & 37.5\,kg & 40\,kg \\
-50\,kg  & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg \\
-55\,kg  & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 50\,kg \\
-60\,kg  & 30\,kg & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 50\,kg & 55\,kg \\
-65\,kg  & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 57.5\,kg \\
-70\,kg  & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 50\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg \\
-75\,kg  & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg \\
-80\,kg  & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 65\,kg & 67.5\,kg & 72.5\,kg \\
-85\,kg  & 42.5\,kg & 47.5\,kg & 50\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg \\
-90\,kg  & 45\,kg & 50\,kg & 55\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 80\,kg \\
-95\,kg  & 47.5\,kg & 52.5\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 75\,kg & 80\,kg & 85\,kg \\
-100\,kg & 50\,kg & 55\,kg & 60\,kg & 65\,kg & 70\,kg & 75\,kg & 80\,kg & 85\,kg & 90\,kg \\
-105\,kg & 52.5\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 85\,kg & 90\,kg & 95\,kg \\
-110\,kg & 55\,kg & 60\,kg & 65\,kg & 72.5\,kg & 77.5\,kg & 82.5\,kg & 87.5\,kg & 92.5\,kg & 100\,kg \\
-115\,kg & 57.5\,kg & 62.5\,kg & 70\,kg & 75\,kg & 80\,kg & 85\,kg & 92.5\,kg & 97.5\,kg & 102.5\,kg \\
-120\,kg & 60\,kg & 65\,kg & 72.5\,kg & 77.5\,kg & 85\,kg & 90\,kg & 95\,kg & 102.5\,kg & 107.5\,kg \\
-125\,kg & 62.5\,kg & 70\,kg & 75\,kg & 82.5\,kg & 87.5\,kg & 92.5\,kg & 100\,kg & 107.5\,kg & 112.5\,kg \\
-130\,kg & 65\,kg & 72.5\,kg & 77.5\,kg & 85\,kg & 90\,kg & 97.5\,kg & 105\,kg & 110\,kg & 117.5\,kg \\
-135\,kg & 67.5\,kg & 75\,kg & 80\,kg & 87.5\,kg & 95\,kg & 100\,kg & 107.5\,kg & 115\,kg & 122.5\,kg \\
-140\,kg & 70\,kg & 77.5\,kg & 85\,kg & 90\,kg & 97.5\,kg & 105\,kg & 112.5\,kg & 120\,kg & 125\,kg \\
+25\,kg   & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg \\
+30\,kg   & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 27.5\,kg \\
+35\,kg   & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg \\
+40\,kg   & 25\,kg & 25\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg \\
+45\,kg   & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg \\
+50\,kg   & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg \\
+55\,kg   & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 50\,kg \\
+60\,kg   & 30\,kg & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 50\,kg & 55\,kg \\
+65\,kg   & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 57.5\,kg \\
+70\,kg   & 35\,kg & 37.5\,kg & 42.5\,kg & 45\,kg & 50\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg \\
+75\,kg   & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg \\
+80\,kg   & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 65\,kg & 67.5\,kg & 72.5\,kg \\
+85\,kg   & 42.5\,kg & 47.5\,kg & 50\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg \\
+90\,kg   & 45\,kg & 50\,kg & 55\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 80\,kg \\
+95\,kg   & 47.5\,kg & 52.5\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 70\,kg & 75\,kg & 80\,kg & 85\,kg \\
+100\,kg  & 50\,kg & 55\,kg & 60\,kg & 65\,kg & 70\,kg & 75\,kg & 80\,kg & 85\,kg & 90\,kg \\
+105\,kg  & 52.5\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 85\,kg & 90\,kg & 95\,kg \\
+110\,kg  & 55\,kg & 60\,kg & 65\,kg & 72.5\,kg & 77.5\,kg & 82.5\,kg & 87.5\,kg & 92.5\,kg & 100\,kg \\
+115\,kg  & 57.5\,kg & 62.5\,kg & 70\,kg & 75\,kg & 80\,kg & 85\,kg & 92.5\,kg & 97.5\,kg & 102.5\,kg \\
+120\,kg  & 60\,kg & 65\,kg & 72.5\,kg & 77.5\,kg & 85\,kg & 90\,kg & 95\,kg & 102.5\,kg & 107.5\,kg \\
+125\,kg  & 62.5\,kg & 67.5\,kg & 75\,kg & 80\,kg & 87.5\,kg & 92.5\,kg & 100\,kg & 105\,kg & 112.5\,kg \\
+130\,kg  & 65\,kg & 72.5\,kg & 77.5\,kg & 85\,kg & 90\,kg & 97.5\,kg & 105\,kg & 110\,kg & 117.5\,kg \\
+135\,kg  & 67.5\,kg & 75\,kg & 80\,kg & 87.5\,kg & 95\,kg & 100\,kg & 107.5\,kg & 115\,kg & 122.5\,kg \\
+140\,kg  & 70\,kg & 77.5\,kg & 85\,kg & 90\,kg & 97.5\,kg & 105\,kg & 112.5\,kg & 120\,kg & 125\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 \end{landscape}
 
@@ -1150,31 +1741,42 @@ All loads are rounded to the nearest load that can be assembled using the availa
 
 Work: 2$\times$10
 
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
+
+Progression: Increase the percentage by five percentage points when every set finishes with 4 RIR or more.
+
+Retention: Keep the same percentage when every set finishes with approximately 1--3 RIR.
+
+Regression: Decrease the percentage by five percentage points if any set reaches 0 RIR but all repetitions are completed with acceptable technique. Decrease the percentage by ten percentage points if technical failure occurs or technique breaks down before all prescribed repetitions are completed.
+
+Technique: Lie on the bench with the eyes beneath or slightly behind the bar. Retract and depress the shoulder blades, keep the chest lifted, and place the feet firmly on the floor throughout the set. Grip the bar so that the forearms are approximately vertical when the bar reaches the chest. Lower the bar under control until it lightly touches the lower chest or sternum without bouncing, then press it upwards and slightly backwards until the elbows are fully extended. Keep the shoulders stable and the hips in contact with the bench throughout the repetition. Do not bounce the bar from the chest, allow the elbows to flare excessively, or attempt repetitions that cannot be completed safely without a competent spotter or suitable safety equipment.
+
 Recommended starting percentage: 70\%.
 
 Starting working weight:
 
-Use the row corresponding to the current main-programme starting working weight and the column corresponding to the current percentage.
+Use the row corresponding to the current Main starting working weight and the column corresponding to the current percentage.
 
 \begin{landscape}
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{crrrrrrrrr}
 \toprule
-Main starting working weight &
-50\% & 55\% & 60\% & 65\% & 70\% & 75\% & 80\% & 85\% & 90\% \\
+Main starting working weight & 50\% & 55\% & 60\% & 65\% & 70\% & 75\% & 80\% & 85\% & 90\% \\
 \midrule
 20\,kg   & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg \\
 22.5\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg \\
-25\,kg   & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 22.5\,kg \\
+25\,kg   & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg \\
 27.5\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 22.5\,kg & 25\,kg \\
 30\,kg   & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg \\
 32.5\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg \\
 35\,kg   & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg \\
 37.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg \\
 40\,kg   & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg \\
-42.5\,kg & 22.5\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg & 37.5\,kg \\
+42.5\,kg & 20\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg & 37.5\,kg \\
 45\,kg   & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg \\
-47.5\,kg & 25\,kg & 27.5\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg \\
+47.5\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg \\
 50\,kg   & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg \\
 52.5\,kg & 25\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg \\
 55\,kg   & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 50\,kg \\
@@ -1182,89 +1784,26 @@ Main starting working weight &
 60\,kg   & 30\,kg & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 50\,kg & 55\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 \end{landscape}
 
 All loads are rounded to the nearest load that can be assembled using the available equipment. Where a calculated load is below the empty bar, use the empty bar.
-
-\subsubsection{Back Squat}
-
-Work: 2$\times$10
-
-Recommended starting percentage: 70\%.
-
-Starting working weight:
-
-Use the row corresponding to the current main-programme starting working weight and the column corresponding to the current percentage.
-
-\begin{landscape}
-\begin{center}
-\begin{tabular}{crrrrrrrrr}
-\toprule
-Main starting working weight &
-50\% & 55\% & 60\% & 65\% & 70\% & 75\% & 80\% & 85\% & 90\% \\
-\midrule
-20\,kg  & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg \\
-25\,kg  & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 22.5\,kg \\
-30\,kg  & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg \\
-35\,kg  & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 27.5\,kg & 30\,kg & 32.5\,kg \\
-40\,kg  & 20\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg \\
-45\,kg  & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg \\
-50\,kg  & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg \\
-55\,kg  & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 50\,kg \\
-60\,kg  & 30\,kg & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 50\,kg & 55\,kg \\
-65\,kg  & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 57.5\,kg \\
-70\,kg  & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 50\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg \\
-75\,kg  & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg \\
-80\,kg  & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 65\,kg & 67.5\,kg & 72.5\,kg \\
-85\,kg  & 42.5\,kg & 47.5\,kg & 50\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg \\
-90\,kg  & 45\,kg & 50\,kg & 55\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 80\,kg \\
-95\,kg  & 47.5\,kg & 52.5\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 75\,kg & 80\,kg & 85\,kg \\
-100\,kg & 50\,kg & 55\,kg & 60\,kg & 65\,kg & 70\,kg & 75\,kg & 80\,kg & 85\,kg & 90\,kg \\
-\bottomrule
-\end{tabular}
-\end{center}
-\end{landscape}
-
-All loads are rounded to the nearest load that can be assembled using the available equipment. Where a calculated load is below the empty bar, use the empty bar.
-
-\subsubsection{Pendlay Row}
-
-Work: 2$\times$10
-
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 35\,kg.
-
-Work-set increment: +2.5\,kg total load
-
-Starting working weight:
-
-\begin{center}
-\begin{tabular}{cll}
-\toprule
-Marker & Working weight & Plates per side \\
-\midrule
-$\circ$ & 25\,kg & 2.5\,kg \\
-$\circ$ & 27.5\,kg & 2.5\,kg + 1.25\,kg \\
-$\circ$ & 30\,kg & 5\,kg \\
-$\circ$ & 32.5\,kg & 5\,kg + 1.25\,kg \\
-$\circ$ & 35\,kg & 5\,kg + 2.5\,kg \\
-$\circ$ & 37.5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
-$\circ$ & 40\,kg & 10\,kg \\
-$\circ$ & 42.5\,kg & 10\,kg + 1.25\,kg \\
-$\circ$ & 45\,kg & 10\,kg + 2.5\,kg \\
-$\circ$ & 47.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
-$\circ$ & 50\,kg & 15\,kg \\
-$\circ$ & 52.5\,kg & 15\,kg + 1.25\,kg \\
-$\circ$ & 55\,kg & 15\,kg + 2.5\,kg \\
-$\circ$ & 57.5\,kg & 15\,kg + 2.5\,kg + 1.25\,kg \\
-$\circ$ & 60\,kg & 20\,kg \\
-\bottomrule
-\end{tabular}
-\end{center}
 
 \subsubsection{Strict Press}
 
 Work: 2$\times$10
+
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
+
+Progression: Increase by +2$\times$1.25\,kg plates when every set finishes with 4 RIR or more.
+
+Retention: Keep the same working weight when every set finishes with approximately 1--3 RIR.
+
+Regression: Move down one row if the prescribed repetitions cannot be completed with acceptable technique.
+
+Technique: Stand with the bar resting on the upper chest and shoulders, brace the trunk, and keep the body rigid throughout the lift. Press the bar overhead until the elbows are fully extended, moving the head slightly back as the bar passes the face and then bringing the head through once the bar is overhead. Lower the bar under control to the starting position. Keep the wrists stacked over the forearms and the finished bar position balanced over the midfoot. Do not use leg drive, excessive back extension, or momentum to assist the lift. If these are required to complete the repetition, the weight should be reduced.
 
 Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 30\,kg.
 
@@ -1273,6 +1812,8 @@ Work-set increment: +2.5\,kg total load
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cll}
 \toprule
 Marker & Working weight & Plates per side \\
@@ -1296,153 +1837,59 @@ $\circ$ & 57.5\,kg & 15\,kg + 2.5\,kg + 1.25\,kg \\
 $\circ$ & 60\,kg & 20\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
-
-\subsection{Women (15 kg bar)}
-
-\subsubsection{Lat Pulldown}
-
-Work: 2$\times$10
-
-The listed weight refers to the kettlebell load attached to the 1:1 pulley.
-
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 24\,kg kettlebell.
-
-Starting working weight:
-
-\begin{center}
-\begin{tabular}{cl}
-\toprule
-Marker & Working weight \\
-\midrule
-$\circ$ & 4\,kg kettlebell \\
-$\circ$ & 6\,kg kettlebell \\
-$\circ$ & 8\,kg kettlebell \\
-$\circ$ & 10\,kg kettlebell \\
-$\circ$ & 12\,kg kettlebell \\
-$\circ$ & 16\,kg kettlebell \\
-$\circ$ & 20\,kg kettlebell \\
-$\circ$ & 24\,kg kettlebell \\
-$\circ$ & 28\,kg kettlebell \\
-$\circ$ & 32\,kg kettlebell \\
-$\circ$ & 36\,kg kettlebell \\
-$\circ$ & 40\,kg kettlebell \\
-$\circ$ & 44\,kg kettlebell \\
-$\circ$ & 48\,kg kettlebell \\
-\bottomrule
-\end{tabular}
-\end{center}
-
-\subsubsection{Deadlift}
-
-Work: 2$\times$10
-
-Recommended starting percentage: 70\%.
-
-Starting working weight:
-
-Use the row corresponding to the current main-programme starting working weight and the column corresponding to the current percentage.
-
-\begin{landscape}
-\begin{center}
-\begin{tabular}{crrrrrrrrr}
-\toprule
-Main starting working weight & 50\% & 55\% & 60\% & 65\% & 70\% & 75\% & 80\% & 85\% & 90\% \\
-\midrule
-20\,kg  & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg \\
-25\,kg  & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 22.5\,kg \\
-30\,kg  & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg \\
-35\,kg  & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 27.5\,kg & 30\,kg & 32.5\,kg \\
-40\,kg  & 20\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg \\
-45\,kg  & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg & 37.5\,kg & 40\,kg \\
-50\,kg  & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg \\
-55\,kg  & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 50\,kg \\
-60\,kg  & 30\,kg & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 50\,kg & 55\,kg \\
-65\,kg  & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 57.5\,kg \\
-70\,kg  & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 50\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg \\
-75\,kg  & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg \\
-80\,kg  & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 65\,kg & 67.5\,kg & 72.5\,kg \\
-85\,kg  & 42.5\,kg & 47.5\,kg & 50\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg \\
-90\,kg  & 45\,kg & 50\,kg & 55\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 80\,kg \\
-95\,kg  & 47.5\,kg & 52.5\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 75\,kg & 80\,kg & 85\,kg \\
-100\,kg & 50\,kg & 55\,kg & 60\,kg & 65\,kg & 70\,kg & 75\,kg & 80\,kg & 85\,kg & 90\,kg \\
-105\,kg & 52.5\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 85\,kg & 90\,kg & 95\,kg \\
-\bottomrule
-\end{tabular}
-\end{center}
-\end{landscape}
-
-All loads are rounded to the nearest load that can be assembled using the available equipment. Where a calculated load is below the minimum floor-pull load, use the minimum floor-pull load.
-
-\subsubsection{Bench Press}
-
-Work: 2$\times$10
-
-Recommended starting percentage: 70\%.
-
-Starting working weight:
-
-Use the row corresponding to the current main-programme starting working weight and the column corresponding to the current percentage.
-
-\begin{landscape}
-\begin{center}
-\begin{tabular}{crrrrrrrrr}
-\toprule
-Main starting working weight &
-50\% & 55\% & 60\% & 65\% & 70\% & 75\% & 80\% & 85\% & 90\% \\
-\midrule
-15\,kg   & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg \\
-17.5\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg \\
-20\,kg   & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 17.5\,kg \\
-22.5\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg \\
-25\,kg   & 15\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 22.5\,kg \\
-27.5\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 22.5\,kg & 25\,kg \\
-30\,kg   & 15\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg \\
-32.5\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg \\
-35\,kg   & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg \\
-37.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg \\
-40\,kg   & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg \\
-42.5\,kg & 22.5\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg & 37.5\,kg \\
-45\,kg   & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg \\
-\bottomrule
-\end{tabular}
-\end{center}
-\end{landscape}
-
-All loads are rounded to the nearest load that can be assembled using the available equipment. Where a calculated load is below the empty bar, use the empty bar.
 
 \subsubsection{Back Squat}
 
 Work: 2$\times$10
 
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
+
+Progression: Increase the percentage by five percentage points when every set finishes with 4 RIR or more.
+
+Retention: Keep the same percentage when every set finishes with approximately 1--3 RIR.
+
+Regression: Decrease the percentage by five percentage points if any set reaches 0 RIR but all repetitions are completed with acceptable technique. Decrease the percentage by ten percentage points if technical failure occurs or technique breaks down before all prescribed repetitions are completed.
+
+Technique: Position the bar securely across the upper back and adopt a stance that allows a comfortable, stable squat. Brace the trunk before each repetition and keep the whole foot in contact with the floor throughout the movement. Descend under control until the hip crease is at least level with the top of the knee, or to the deepest position that can be reached while maintaining a neutral spine and control. Drive upwards by pushing evenly through the feet while keeping the knees tracking broadly in line with the toes. Stand fully upright before beginning the next repetition. Do not allow the heels to lift, the knees to collapse inwards, the back to lose its neutral position, or the bar to drift away from the midfoot.
+
 Recommended starting percentage: 70\%.
 
 Starting working weight:
 
-Use the row corresponding to the current main-programme starting working weight and the column corresponding to the current percentage.
+Use the row corresponding to the current Main starting working weight and the column corresponding to the current percentage.
 
 \begin{landscape}
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{crrrrrrrrr}
 \toprule
-Main starting working weight &
-50\% & 55\% & 60\% & 65\% & 70\% & 75\% & 80\% & 85\% & 90\% \\
+Main starting working weight & 50\% & 55\% & 60\% & 65\% & 70\% & 75\% & 80\% & 85\% & 90\% \\
 \midrule
-15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg \\
-20\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 17.5\,kg \\
-25\,kg & 15\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 22.5\,kg \\
-30\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg \\
-35\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg \\
-40\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg \\
-45\,kg & 22.5\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg & 37.5\,kg \\
-50\,kg & 22.5\,kg & 25\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg \\
-55\,kg & 25\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 50\,kg \\
-60\,kg & 30\,kg & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 50\,kg & 55\,kg \\
-65\,kg & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 57.5\,kg \\
-70\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 50\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg \\
-75\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg \\
+20\,kg   & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg \\
+25\,kg   & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg \\
+30\,kg   & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg \\
+35\,kg   & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg \\
+40\,kg   & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg \\
+45\,kg   & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg \\
+50\,kg   & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg \\
+55\,kg   & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 50\,kg \\
+60\,kg   & 30\,kg & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 50\,kg & 55\,kg \\
+65\,kg   & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 57.5\,kg \\
+70\,kg   & 35\,kg & 37.5\,kg & 42.5\,kg & 45\,kg & 50\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg \\
+75\,kg   & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg \\
+80\,kg   & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 65\,kg & 67.5\,kg & 72.5\,kg \\
+85\,kg   & 42.5\,kg & 47.5\,kg & 50\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg \\
+90\,kg   & 45\,kg & 50\,kg & 55\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 80\,kg \\
+95\,kg   & 47.5\,kg & 52.5\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 70\,kg & 75\,kg & 80\,kg & 85\,kg \\
+100\,kg  & 50\,kg & 55\,kg & 60\,kg & 65\,kg & 70\,kg & 75\,kg & 80\,kg & 85\,kg & 90\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 \end{landscape}
 
@@ -1452,35 +1899,250 @@ All loads are rounded to the nearest load that can be assembled using the availa
 
 Work: 2$\times$10
 
-Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 30\,kg.
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
+
+Progression: Increase by +2$\times$1.25\,kg plates when every set finishes with 4 RIR or more.
+
+Retention: Keep the same working weight when every set finishes with approximately 1--3 RIR.
+
+Regression: Move down one row if the prescribed repetitions cannot be completed with acceptable technique.
+
+Technique: Begin each repetition with the bar resting motionless on the floor. Hinge at the hips until the torso is close to horizontal, brace the trunk, and maintain a rigid, neutral back throughout the lift. Pull the bar explosively but under control towards the lower chest or upper abdomen by driving the elbows backwards. Return the bar under control to the floor and allow it to settle completely before beginning the next repetition. Do not use the legs to initiate the lift, raise the torso to continue the set, bounce the bar from the floor, or turn the exercise into a conventional bent-over row.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 35\,kg.
 
 Work-set increment: +2.5\,kg total load
 
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cll}
 \toprule
 Marker & Working weight & Plates per side \\
 \midrule
-$\circ$ & 20\,kg & 2.5\,kg \\
-$\circ$ & 22.5\,kg & 2.5\,kg + 1.25\,kg \\
-$\circ$ & 25\,kg & 5\,kg \\
-$\circ$ & 27.5\,kg & 5\,kg + 1.25\,kg \\
-$\circ$ & 30\,kg & 5\,kg + 2.5\,kg \\
-$\circ$ & 32.5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
-$\circ$ & 35\,kg & 10\,kg \\
-$\circ$ & 37.5\,kg & 10\,kg + 1.25\,kg \\
-$\circ$ & 40\,kg & 10\,kg + 2.5\,kg \\
-$\circ$ & 42.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
-$\circ$ & 45\,kg & 15\,kg \\
+$\circ$ & 25\,kg & 2.5\,kg \\
+$\circ$ & 27.5\,kg & 2.5\,kg + 1.25\,kg \\
+$\circ$ & 30\,kg & 5\,kg \\
+$\circ$ & 32.5\,kg & 5\,kg + 1.25\,kg \\
+$\circ$ & 35\,kg & 5\,kg + 2.5\,kg \\
+$\circ$ & 37.5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
+$\circ$ & 40\,kg & 10\,kg \\
+$\circ$ & 42.5\,kg & 10\,kg + 1.25\,kg \\
+$\circ$ & 45\,kg & 10\,kg + 2.5\,kg \\
+$\circ$ & 47.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
+$\circ$ & 50\,kg & 15\,kg \\
+$\circ$ & 52.5\,kg & 15\,kg + 1.25\,kg \\
+$\circ$ & 55\,kg & 15\,kg + 2.5\,kg \\
+$\circ$ & 57.5\,kg & 15\,kg + 2.5\,kg + 1.25\,kg \\
+$\circ$ & 60\,kg & 20\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
+
+\subsection{Women (15 kg bar)}
+
+\subsubsection{Lat Pulldown}
+
+Work: 2$\times$10
+
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
+
+Progression: Move to the next listed cable-machine load when every set finishes with 4 RIR or more.
+
+Retention: Keep the same cable-machine load when every set finishes with approximately 1--3 RIR.
+
+Regression: Move to the previous listed cable-machine load if the prescribed repetitions cannot be completed with the intended movement pattern and control.
+
+The listed weight refers to the total kettlebell load attached to the 1:1 pulley, with the loading column giving one valid combination using the available kettlebells.
+
+Technique: Sit or kneel in a stable position so that the cable runs vertically and remains under tension throughout the movement. Begin each repetition with the arms fully extended overhead and the shoulders allowed to rise naturally. Pull the handle down towards the upper chest by driving the elbows down and slightly back. Pause briefly at the bottom, then return under control until the elbows are fully extended again. Do not lean back excessively, swing the torso, shorten the overhead position, or turn the movement into a row.
+
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 24\,kg kettlebell.
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Kettlebell loading \\
+\midrule
+$\circ$ & 4\,kg & 4\,kg \\
+$\circ$ & 8\,kg & 8\,kg \\
+$\circ$ & 12\,kg & 12\,kg \\
+$\circ$ & 16\,kg & 16\,kg \\
+$\circ$ & 20\,kg & 20\,kg \\
+$\circ$ & 24\,kg & 24\,kg \\
+$\circ$ & 28\,kg & 28\,kg \\
+$\circ$ & 32\,kg & 32\,kg \\
+$\circ$ & 36\,kg & 36\,kg \\
+$\circ$ & 40\,kg & 40\,kg \\
+$\circ$ & 44\,kg & 44\,kg \\
+$\circ$ & 48\,kg & 24\,kg + 24\,kg \\
+$\circ$ & 52\,kg & 24\,kg + 28\,kg \\
+$\circ$ & 56\,kg & 28\,kg + 28\,kg \\
+$\circ$ & 60\,kg & 28\,kg + 32\,kg \\
+$\circ$ & 64\,kg & 32\,kg + 32\,kg \\
+$\circ$ & 68\,kg & 32\,kg + 36\,kg \\
+$\circ$ & 72\,kg & 32\,kg + 40\,kg \\
+$\circ$ & 76\,kg & 32\,kg + 44\,kg \\
+$\circ$ & 80\,kg & 36\,kg + 44\,kg \\
+$\circ$ & 84\,kg & 40\,kg + 44\,kg \\
+$\circ$ & 88\,kg & 28\,kg + 28\,kg + 32\,kg \\
+$\circ$ & 92\,kg & 28\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 96\,kg & 32\,kg + 32\,kg + 32\,kg \\
+$\circ$ & 100\,kg & 32\,kg + 32\,kg + 36\,kg \\
+$\circ$ & 104\,kg & 32\,kg + 32\,kg + 40\,kg \\
+$\circ$ & 108\,kg & 32\,kg + 32\,kg + 44\,kg \\
+$\circ$ & 112\,kg & 32\,kg + 36\,kg + 44\,kg \\
+$\circ$ & 116\,kg & 32\,kg + 40\,kg + 44\,kg \\
+$\circ$ & 120\,kg & 36\,kg + 40\,kg + 44\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+
+\subsubsection{Deadlift}
+
+Work: 2$\times$10
+
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
+
+Progression: Increase the percentage by five percentage points when every set finishes with 4 RIR or more.
+
+Retention: Keep the same percentage when every set finishes with approximately 1--3 RIR.
+
+Regression: Decrease the percentage by five percentage points if any set reaches 0 RIR but all repetitions are completed with acceptable technique. Decrease the percentage by ten percentage points if technical failure occurs or technique breaks down before all prescribed repetitions are completed.
+
+Technique: Position the bar over the middle of the feet and take a grip just outside the legs. Brace the trunk before each repetition and maintain a rigid, neutral back throughout the lift. Push the floor away while keeping the bar close to the body, allowing the hips and shoulders to rise together until standing upright. At the top, stand tall without leaning backwards or shrugging the shoulders. Lower the bar under control by hinging at the hips before bending the knees once the bar has passed them, returning the bar to the floor under control before beginning the next repetition. Do not bounce the bar, hitch the lift, round the back, or allow the bar to drift forwards away from the legs.
+
+Recommended starting percentage: 70\%.
+
+Starting working weight:
+
+Use the row corresponding to the current Main starting working weight and the column corresponding to the current percentage.
+
+\begin{landscape}
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{crrrrrrrrr}
+\toprule
+Main starting working weight & 50\% & 55\% & 60\% & 65\% & 70\% & 75\% & 80\% & 85\% & 90\% \\
+\midrule
+20\,kg    & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg \\
+22.5\,kg  & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg \\
+25\,kg    & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg \\
+27.5\,kg  & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 22.5\,kg & 25\,kg \\
+30\,kg    & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg \\
+32.5\,kg  & 20\,kg & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg \\
+35\,kg    & 20\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg \\
+37.5\,kg  & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg \\
+40\,kg    & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg \\
+42.5\,kg  & 20\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg & 37.5\,kg \\
+45\,kg    & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg \\
+47.5\,kg  & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg \\
+50\,kg    & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg \\
+52.5\,kg  & 25\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg \\
+55\,kg    & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 50\,kg \\
+57.5\,kg  & 27.5\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg & 50\,kg & 52.5\,kg \\
+60\,kg    & 30\,kg & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 50\,kg & 55\,kg \\
+62.5\,kg  & 30\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 47.5\,kg & 50\,kg & 52.5\,kg & 55\,kg \\
+65\,kg    & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 57.5\,kg \\
+67.5\,kg  & 32.5\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 50\,kg & 55\,kg & 57.5\,kg & 60\,kg \\
+70\,kg    & 35\,kg & 37.5\,kg & 42.5\,kg & 45\,kg & 50\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg \\
+72.5\,kg  & 35\,kg & 40\,kg & 42.5\,kg & 47.5\,kg & 50\,kg & 55\,kg & 57.5\,kg & 62.5\,kg & 65\,kg \\
+75\,kg    & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg \\
+77.5\,kg  & 37.5\,kg & 42.5\,kg & 47.5\,kg & 50\,kg & 55\,kg & 57.5\,kg & 62.5\,kg & 65\,kg & 70\,kg \\
+80\,kg    & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 65\,kg & 67.5\,kg & 72.5\,kg \\
+82.5\,kg  & 40\,kg & 45\,kg & 50\,kg & 52.5\,kg & 57.5\,kg & 62.5\,kg & 65\,kg & 70\,kg & 75\,kg \\
+85\,kg    & 42.5\,kg & 47.5\,kg & 50\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg \\
+87.5\,kg  & 42.5\,kg & 47.5\,kg & 52.5\,kg & 57.5\,kg & 60\,kg & 65\,kg & 70\,kg & 75\,kg & 77.5\,kg \\
+90\,kg    & 45\,kg & 50\,kg & 55\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 80\,kg \\
+92.5\,kg  & 45\,kg & 50\,kg & 55\,kg & 60\,kg & 65\,kg & 70\,kg & 75\,kg & 77.5\,kg & 82.5\,kg \\
+95\,kg    & 47.5\,kg & 52.5\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 70\,kg & 75\,kg & 80\,kg & 85\,kg \\
+97.5\,kg  & 47.5\,kg & 52.5\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 82.5\,kg & 87.5\,kg \\
+100\,kg   & 50\,kg & 55\,kg & 60\,kg & 65\,kg & 70\,kg & 75\,kg & 80\,kg & 85\,kg & 90\,kg \\
+102.5\,kg & 50\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 82.5\,kg & 87.5\,kg & 92.5\,kg \\
+105\,kg   & 52.5\,kg & 57.5\,kg & 62.5\,kg & 67.5\,kg & 72.5\,kg & 77.5\,kg & 85\,kg & 90\,kg & 95\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+\end{landscape}
+
+All loads are rounded to the nearest load that can be assembled using the available equipment. Where a calculated load is below the minimum floor-pull load, use the minimum floor-pull load.
+
+\subsubsection{Bench Press}
+
+Work: 2$\times$10
+
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
+
+Progression: Increase the percentage by five percentage points when every set finishes with 4 RIR or more.
+
+Retention: Keep the same percentage when every set finishes with approximately 1--3 RIR.
+
+Regression: Decrease the percentage by five percentage points if any set reaches 0 RIR but all repetitions are completed with acceptable technique. Decrease the percentage by ten percentage points if technical failure occurs or technique breaks down before all prescribed repetitions are completed.
+
+Technique: Lie on the bench with the eyes beneath or slightly behind the bar. Retract and depress the shoulder blades, keep the chest lifted, and place the feet firmly on the floor throughout the set. Grip the bar so that the forearms are approximately vertical when the bar reaches the chest. Lower the bar under control until it lightly touches the lower chest or sternum without bouncing, then press it upwards and slightly backwards until the elbows are fully extended. Keep the shoulders stable and the hips in contact with the bench throughout the repetition. Do not bounce the bar from the chest, allow the elbows to flare excessively, or attempt repetitions that cannot be completed safely without a competent spotter or suitable safety equipment.
+
+Recommended starting percentage: 70\%.
+
+Starting working weight:
+
+Use the row corresponding to the current Main starting working weight and the column corresponding to the current percentage.
+
+\begin{landscape}
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{crrrrrrrrr}
+\toprule
+Main starting working weight & 50\% & 55\% & 60\% & 65\% & 70\% & 75\% & 80\% & 85\% & 90\% \\
+\midrule
+15\,kg   & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg \\
+17.5\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg \\
+20\,kg   & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg \\
+22.5\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg \\
+25\,kg   & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg \\
+27.5\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 22.5\,kg & 25\,kg \\
+30\,kg   & 15\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg \\
+32.5\,kg & 15\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg \\
+35\,kg   & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg \\
+37.5\,kg & 17.5\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg \\
+40\,kg   & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg \\
+42.5\,kg & 20\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg & 37.5\,kg \\
+45\,kg   & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+\end{landscape}
+
+All loads are rounded to the nearest load that can be assembled using the available equipment. Where a calculated load is below the empty bar, use the empty bar.
 
 \subsubsection{Strict Press}
 
 Work: 2$\times$10
+
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
+
+Progression: Increase by +2$\times$1.25\,kg plates when every set finishes with 4 RIR or more.
+
+Retention: Keep the same working weight when every set finishes with approximately 1--3 RIR.
+
+Regression: Move down one row if the prescribed repetitions cannot be completed with acceptable technique.
+
+Technique: Stand with the bar resting on the upper chest and shoulders, brace the trunk, and keep the body rigid throughout the lift. Press the bar overhead until the elbows are fully extended, moving the head slightly back as the bar passes the face and then bringing the head through once the bar is overhead. Lower the bar under control to the starting position. Keep the wrists stacked over the forearms and the finished bar position balanced over the midfoot. Do not use leg drive, excessive back extension, or momentum to assist the lift. If these are required to complete the repetition, the weight should be reduced.
 
 Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 25\,kg.
 
@@ -1489,6 +2151,8 @@ Work-set increment: +2.5\,kg total load
 Starting working weight:
 
 \begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
 \begin{tabular}{cll}
 \toprule
 Marker & Working weight & Plates per side \\
@@ -1508,110 +2172,107 @@ $\circ$ & 42.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
 $\circ$ & 45\,kg & 15\,kg \\
 \bottomrule
 \end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
 \end{center}
 
-%=========================================================
-\section{Progression Rules}
+\subsubsection{Back Squat}
 
-\subsection{Primary 3\texorpdfstring{$\times$}{x}5 Lifts}
+Work: 2$\times$10
 
-\begin{itemize}
-\item Increase the load between working sets by the prescribed work-set increment.
-\item For Deadlift, Bench Press and Back Squat, this gives three working sets: the starting working weight, the starting working weight plus one increment, and the starting working weight plus two increments.
-\item The final working set is expected to be closest to the target effort. The first and second working sets may be easier.
-\item Progression is earned only when every prescribed repetition is completed using the intended range of motion and acceptable technique. Altered movement patterns, shortened range of motion or loss of control do not count towards progression.
-\item If the final working set finishes with two or more repetitions in reserve (2 RIR) and all working sets were completed with acceptable technique, increase the starting working weight for the next session by one progression step.
-\item If the final working set finishes with approximately one repetition in reserve (1 RIR), retain the same starting working weight.
-\item If a working set reaches technical failure, or acceptable technique is lost before all prescribed repetitions have been completed, apply the regression rule.
-\end{itemize}
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
 
-\subsection{Regression Rules}
+Progression: Increase the percentage by five percentage points when every set finishes with 4 RIR or more.
 
-Regression is used when the prescribed load is too heavy to complete with the intended technique, range of motion and target effort.
+Retention: Keep the same percentage when every set finishes with approximately 1--3 RIR.
 
-\begin{itemize}
-\item A set does not count as successfully completed if the intended range of motion is shortened, control is lost, or the movement pattern changes substantially in order to complete the repetition.
-\item If a main lift reaches technical failure, or acceptable technique is lost before all prescribed repetitions have been completed, reduce the starting working weight by one progression step for the next session.
-\item If a primary lift is completed with acceptable technique but finishes with zero repetitions in reserve (0 RIR), retain the same starting working weight for the next session. If this happens in two consecutive sessions, reduce the starting working weight by one progression step.
-\item If the same main lift requires regression in two consecutive sessions, reduce the starting working weight by one additional progression step after the second session, giving a total reduction of two progression steps from the original failed load.
-\item For accessory exercises, reduce the working weight by one progression step if the prescribed repetitions or distance cannot be completed with acceptable technique.
-\item For cable exercises loaded with kettlebells, reduce to the previous kettlebell if the prescribed repetitions cannot be completed with the intended movement pattern and control.
-\item For carries, reduce to the previous kettlebell if posture, shoulder position, walking control or grip position cannot be maintained over the prescribed distance.
-\item Do not compensate for excessive load by using shortened range of motion, momentum, bouncing, twisting, excessive back extension, or rushing the set.
-\item If an exercise is already at the lowest listed working weight, retain that weight and reduce effort, range of loading, or total work as required to preserve acceptable technique.
-\end{itemize}
+Regression: Decrease the percentage by five percentage points if any set reaches 0 RIR but all repetitions are completed with acceptable technique. Decrease the percentage by ten percentage points if technical failure occurs or technique breaks down before all prescribed repetitions are completed.
 
-\subsection{Secondary and Accessory Progression}
+Technique: Position the bar securely across the upper back and adopt a stance that allows a comfortable, stable squat. Brace the trunk before each repetition and keep the whole foot in contact with the floor throughout the movement. Descend under control until the hip crease is at least level with the top of the knee, or to the deepest position that can be reached while maintaining a neutral spine and control. Drive upwards by pushing evenly through the feet while keeping the knees tracking broadly in line with the toes. Stand fully upright before beginning the next repetition. Do not allow the heels to lift, the knees to collapse inwards, the back to lose its neutral position, or the bar to drift away from the midfoot.
 
-For all secondary and accessory exercises, retain the current working weight unless the progression or regression criteria are met. Progress only when the exercise is clearly easier than the target effort. Regress when the prescribed work cannot be completed with acceptable technique.
+Recommended starting percentage: 70\%.
 
-The target effort remains approximately 3 RIR unless stated otherwise; 4 RIR is the threshold for increasing load, not the normal target.
+Starting working weight:
 
-\subsubsection{Standing Calf Raise}
+Use the row corresponding to the current Main starting working weight and the column corresponding to the current percentage.
 
-\begin{itemize}
-\item Move to the next kettlebell when every set finishes with 4 RIR or more.
-\end{itemize}
+\begin{landscape}
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{crrrrrrrrr}
+\toprule
+Main starting working weight & 50\% & 55\% & 60\% & 65\% & 70\% & 75\% & 80\% & 85\% & 90\% \\
+\midrule
+15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg \\
+20\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg \\
+25\,kg & 15\,kg & 15\,kg & 15\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg \\
+30\,kg & 15\,kg & 17.5\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg \\
+35\,kg & 17.5\,kg & 20\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg \\
+40\,kg & 20\,kg & 22.5\,kg & 25\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 35\,kg \\
+45\,kg & 22.5\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg \\
+50\,kg & 25\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 42.5\,kg & 45\,kg \\
+55\,kg & 27.5\,kg & 30\,kg & 32.5\,kg & 35\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 50\,kg \\
+60\,kg & 30\,kg & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 50\,kg & 55\,kg \\
+65\,kg & 32.5\,kg & 35\,kg & 40\,kg & 42.5\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 57.5\,kg \\
+70\,kg & 35\,kg & 37.5\,kg & 42.5\,kg & 45\,kg & 50\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg \\
+75\,kg & 37.5\,kg & 40\,kg & 45\,kg & 47.5\,kg & 52.5\,kg & 55\,kg & 60\,kg & 62.5\,kg & 67.5\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
+\end{landscape}
 
-\subsubsection{Suitcase Carry}
-
-\begin{itemize}
-\item Move to the next kettlebell when both sets on each side are completed over the prescribed distance while maintaining an upright torso, level shoulders and a normal walking pace, and the set does not feel close to technical breakdown.
-\end{itemize}
-
-\subsubsection{Alternating Supinating Dumbbell Curl}
-
-\begin{itemize}
-\item Move to the next dumbbell when every set finishes with 4 RIR or more.
-\end{itemize}
-
-\subsubsection{Cable Crunch}
-
-\begin{itemize}
-\item Move to the next kettlebell when every set finishes with 4 RIR or more.
-\end{itemize}
-
-\subsubsection{Lat Pulldown}
-
-\begin{itemize}
-\item Move to the next kettlebell when every set finishes with 4 RIR or more.
-\end{itemize}
+All loads are rounded to the nearest load that can be assembled using the available equipment. Where a calculated load is below the empty bar, use the empty bar.
 
 \subsubsection{Pendlay Row}
 
-\begin{itemize}
-\item Increase by +2$\times$1.25\,kg plates when every set finishes with 4 RIR or more.
-\end{itemize}
+Work: 2$\times$10
 
-\subsubsection{Strict Press}
+Target effort: Finish each set with approximately one repetition in reserve (1 RIR).
 
-\begin{itemize}
-\item Increase by +2$\times$1.25\,kg plates when every set finishes with 4 RIR or more.
-\end{itemize}
+Progression: Increase by +2$\times$1.25\,kg plates when every set finishes with 4 RIR or more.
 
-\subsection{Alternative Block Progression}
+Retention: Keep the same working weight when every set finishes with approximately 1--3 RIR.
 
-For Deadlift, Bench Press and Back Squat:
+Regression: Move down one row if the prescribed repetitions cannot be completed with acceptable technique.
 
-\begin{itemize}
-\item Start at 70\% of the main-programme starting working weight.
-\item Use a lower percentage column if 70\% is too heavy.
-\item The available percentage range is 50--90\%, in five-percentage-point increments.
-\item If every set finishes with 4 RIR or more, increase the percentage by five percentage points for the next Alternative Hypertrophy Block session.
-\item If every set finishes with 2--3 RIR, retain the same percentage for the next Alternative Hypertrophy Block session.
-\item If any set reaches 0 RIR but all repetitions are completed with acceptable technique, decrease the percentage by five percentage points for the next Alternative Hypertrophy Block session.
-\item If any set reaches technical failure or technique breaks down before all prescribed repetitions are completed, decrease the percentage by ten percentage points for the next Alternative Hypertrophy Block session.
-\item Do not progress beyond 90\%. If 90\% becomes too easy, continue at 90\% or return to the Main Strength Block.
-\item Calculate the target load using the current percentage of the main-programme starting working weight, then round to the nearest load that can be assembled using the available plates. If the calculated load is exactly halfway between two achievable loads, round down.
-\end{itemize}
+Technique: Begin each repetition with the bar resting motionless on the floor. Hinge at the hips until the torso is close to horizontal, brace the trunk, and maintain a rigid, neutral back throughout the lift. Pull the bar explosively but under control towards the lower chest or upper abdomen by driving the elbows backwards. Return the bar under control to the floor and allow it to settle completely before beginning the next repetition. Do not use the legs to initiate the lift, raise the torso to continue the set, bounce the bar from the floor, or turn the exercise into a conventional bent-over row.
 
-The values in the percentage tables are total bar loads, not plates per side.
+Recommended starting working weight for an average recreational gym-goer with previous resistance-training experience: 30\,kg.
 
-Lat Pulldown, Pendlay Row and Strict Press use the same working-weight rows as the Main Strength Block.
+Work-set increment: +2.5\,kg total load
+
+Starting working weight:
+
+\begin{center}
+\renewcommand{\arraystretch}{\tablearraystretch}
+\begin{adjustbox}{max width=\linewidth,max totalheight=0.9\textheight,center}
+\begin{tabular}{cll}
+\toprule
+Marker & Working weight & Plates per side \\
+\midrule
+$\circ$ & 20\,kg & 2.5\,kg \\
+$\circ$ & 22.5\,kg & 2.5\,kg + 1.25\,kg \\
+$\circ$ & 25\,kg & 5\,kg \\
+$\circ$ & 27.5\,kg & 5\,kg + 1.25\,kg \\
+$\circ$ & 30\,kg & 5\,kg + 2.5\,kg \\
+$\circ$ & 32.5\,kg & 5\,kg + 2.5\,kg + 1.25\,kg \\
+$\circ$ & 35\,kg & 10\,kg \\
+$\circ$ & 37.5\,kg & 10\,kg + 1.25\,kg \\
+$\circ$ & 40\,kg & 10\,kg + 2.5\,kg \\
+$\circ$ & 42.5\,kg & 10\,kg + 2.5\,kg + 1.25\,kg \\
+$\circ$ & 45\,kg & 15\,kg \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\renewcommand{\arraystretch}{1}
+\end{center}
 
 %=========================================================
-\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 \appendix
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 
 \section{Equipment}
 
@@ -1638,17 +2299,21 @@ This programme assumes access to the following equipment.
 
 \subsection{Kettlebells}
 
-The programme assumes access to kettlebells in standard commercial increments.
+The programme assumes access to 4\,kg, 8\,kg, 12\,kg, 16\,kg, 20\,kg, 24\,kg, 28\,kg, 32\,kg, 36\,kg, 40\,kg and 44\,kg kettlebells. Multiple kettlebells are available up to 32\,kg. Only one 36\,kg, one 40\,kg and one 44\,kg kettlebell are available.
 
 \subsection{Dumbbells}
 
-The programme assumes access to dumbbells in standard commercial increments.
+The programme assumes access to pairs of 2.5\,kg, 5\,kg, 7.5\,kg, 10\,kg, 12.5\,kg, 15\,kg, 17.5\,kg, 20\,kg, 22.5\,kg, 27.5\,kg, 30\,kg, 32.5\,kg, 35\,kg, 40\,kg, 45\,kg and 50\,kg dumbbells.
 
 \subsection{Machines}
 
 \begin{itemize}
 \item Adjustable 1:1 cable pulley loaded with kettlebells
+\item Rope attachment
+\item Lat pulldown handle
 \end{itemize}
+
+For cable-machine exercises, kettlebells may be combined up to a maximum of three kettlebells. Cable-machine loading tables respect the available inventory and do not prescribe duplicate use of the 36\,kg, 40\,kg or 44\,kg kettlebells.
 
 \section{Plate Calculations}
 
@@ -1663,6 +2328,6 @@ For example,
 \item 35\,kg total load with a 15\,kg bar requires 10\,kg per side.
 \end{itemize}
 
-Where percentage-based loads are prescribed, calculate the target load using the main-programme starting working weight, then round to the nearest load that can be assembled using the available equipment. If the calculated load is exactly halfway between two achievable loads, round down.
+Where percentage-based loads are prescribed, calculate the target load using the Main starting working weight, then round to the nearest load that can be assembled using the available equipment. If the calculated load is exactly halfway between two achievable loads, round down.
 
 \end{document}
